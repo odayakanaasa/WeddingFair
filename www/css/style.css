@@ -1,0 +1,142 @@
+/* Empty. Add your own CSS if you like */
+ion-content{
+  background: #e8e8e8;
+}
+.padding{
+  padding:20px;
+}
+.zero-padding{
+  padding: 0 !important;
+}
+.zero-margin{
+  margin: 0 !important;
+}
+.size-margin-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+.card-margin{
+  margin:2px 2px !important;
+}
+
+.absolute{
+  position: absolute;
+}
+.full-width{
+  width:100% !important;
+}
+.full-height{
+  height:100%;
+}
+.align-center{
+  text-align: center;
+}
+.align-left{
+  text-align: left;
+}
+.align-right{
+  text-align: right;
+}
+/*buttons*/
+.button.square{
+  border-radius: 0;
+}
+.custom-height-button{
+  min-height: 0 !important;
+  padding: 0 !important;
+}
+.button-sm{
+  height: 50px;
+  line-height: 25px;
+}
+.button-md{
+  height: 55px;
+  line-height: 50px !important;
+}
+.button-md:before{
+  line-height: 48px !important;
+}
+.button-lg{
+  height: 65px;
+  line-height: 40px !important;
+}
+.button-orange{
+  background-color: #f48420;
+  color: #ffffff;
+}
+.button-orange.activated{
+  border-color: #d8851e !important;
+  background-color: #ea7000 !important;
+  color: #ffffff  !important;
+}
+.button-orange:hover{
+  color: #ffffff  !important;
+}
+.button-black{
+  background-color: #38464f;
+  color: #ffffff;
+}
+
+.text-md{
+  height: 50px;
+}
+.text-xmd{
+  height:55px;
+}
+.item-input > input {
+  padding-left:10px !important;
+}
+
+/*text deco*/
+.capital{
+  text-transform: uppercase;
+}
+.underlined{
+  text-decoration: underline;
+}
+.font-M{
+  font-size : 15px;
+}
+.font-L{
+  font-size: 25px;
+}
+.white{
+  color: white !important;
+}
+.black{
+  color: black;
+}
+
+/*header*/
+.header-md{
+  height: 60px;
+}
+.has-header-md{
+  top:60px !important;
+}
+.has-header-md-tab{
+  top: 104px !important;
+}
+.has-header-md-search {
+  top: 110px !important;
+}
+.left-title{
+  margin-left: 60px;
+}
+.bar-subheader{
+  background-color:#fc8d33;
+  box-shadow: 2px 3px 3px 0px rgba(41, 41, 41, .3);
+}
+.padding-top-zero{
+  padding-top: 0 !important;
+}
+
+.tab-item.tab-item-active, .tab-item.active, .tab-item.activated {
+  opacity: 1;
+  border-bottom: 2px solid white !important;
+}
+
+/*opacity*/
+.half-opacity{
+  opacity:0.5 !important;
+}

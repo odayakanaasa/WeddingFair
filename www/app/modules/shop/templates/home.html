@@ -1,0 +1,101 @@
+<ion-header-bar class="bar bar-header header-md ">
+  <div style="width: 100%; display: inherit; margin-top: 0px !important;" >
+    <div class="search-box-wrapper">
+        <div class="absolute toggle-side-wrapper">
+          <a class="button button-icon row"  ng-click="toggleSideBarHome()">
+            <i class="ion-navicon-round font-L black"></i>
+          </a>
+        </div>
+    </div>
+    <div class="logo-wrapper">
+      <a class="button button-icon" href="#/home"><img src="img/wedding_fair/logo.png"  style="height:47px;"></a>
+    </div>
+    <div class="absolute cart-icon-wrapper">
+      <a class="button button-icon row" href="#/cart">
+        <i class="ion-android-cart font-L white" ></i>
+      </a>
+    </div>
+  </div>
+</ion-header-bar>
+
+
+<ion-view  cache-view="false">
+  <ion-content class="" overflow-scroll="true" style="top:60px;">
+
+    <div class="row" style="height: 30%;margin: 3px 0px;" ng-click="goServiceProvidersList()">
+      <div class="list card-margin full-height">
+        <div class="item item-image full-height" >
+          <img src="img/wedding_fair/photography/3.jpg" class="full-height">
+          <div class="text-on-image card-title-shadow" >
+            <h2 class="align-right">PHOTOGRAPHY</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row" style="height: 30%; margin: 3px 0px;" ng-click="goServiceProvidersList()">
+      <div class="list card-margin full-height">
+        <div class="item item-image full-height" >
+          <img src="img/wedding_fair/jewellery/11.jpg" class="full-height">
+          <div class="text-on-image card-title-shadow" >
+            <h2 class="align-right">JEWELLERY</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row" style="height: 30%; margin: 3px 0px;" ng-click="goServiceProvidersList()">
+      <div class="list card-margin full-height">
+        <div class="item item-image full-height" >
+          <img src="img/wedding_fair/dress/5.jpg" class="full-height">
+          <div class="text-on-image card-title-shadow" >
+            <h2 class="align-right">DRESSES</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row" style="height: 30%; margin: 3px 0px;" ng-click="goServiceProvidersList()">
+      <div class="list card-margin full-height">
+        <div class="item item-image full-height" >
+          <img src="img/wedding_fair/dj/9.jpg" class="full-height">
+          <div class="text-on-image card-title-shadow" >
+            <h2 class="align-right">DJ</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </ion-content>
+  <md-sidenav class="md-sidenav-left md-whiteframe-4dp" md-component-id="right">
+    <md-content >
+      <img ng-src="img/wedding_fair/side-nav-image.jpg" style="width:100%">
+      <md-list flex>
+
+        <md-list-item class="md-3-line" style="height: 50px; min-height:0px; padding-top: 10px;" >
+          <div class="md-list-item-text zero-margin" layout="column" ng-click="openSignIn()">
+            <h4><i class="ion-person sidenav-icon"></i><span class="sidenav-options">{{'SIGN_IN' | translate}}</span></h4>
+          </div>
+        </md-list-item>
+        <md-divider ></md-divider>
+        <md-list-item class="md-3-line" style="height: 50px; min-height:0px; padding-top: 10px;" >
+          <div class="md-list-item-text zero-margin" layout="column" ng-click="openCategories()">
+            <h4><i class="ion-ios-browsers sidenav-icon"></i><span class="sidenav-options">{{'ALL_CATEGORIES' | translate}}</span></h4>
+          </div>
+        </md-list-item>
+        <md-divider ></md-divider>
+        <md-list-item class="md-3-line" style="height: 50px; min-height:0px; padding-top: 10px;">
+          <div class="md-list-item-text zero-margin" layout="column"  ng-click="openWishList()">
+            <h4><i class="ion-ios-heart sidenav-icon"></i><span class="sidenav-options">{{'WISH_LIST' | translate}}</span></h4>
+          </div>
+        </md-list-item>
+        <md-divider ></md-divider>
+        <md-list-item class="md-3-line" style="height: 50px; min-height:0px; padding-top: 10px;">
+          <div class="md-list-item-text zero-margin" layout="column" ng-click="logOut()">
+            <h4><i class="ion-android-hand sidenav-icon"></i><span class="sidenav-options">{{'LOG_OUT' | translate}}</span></h4>
+          </div>
+        </md-list-item>
+        <md-divider ></md-divider>
+      </md-list>
+    </md-content>
+  </md-sidenav>
+
+</ion-view>
+

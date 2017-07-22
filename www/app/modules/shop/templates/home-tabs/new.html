@@ -1,0 +1,140 @@
+<ion-view view-title="New" cache-view="false">
+  <ion-content class="">
+    <ion-slide-box on-slide-changed="slideChanged(index)" slide-interval="1000">
+      <ion-slide>
+        <div id="shop">
+          <div class="content">
+            <img class="full-width" style="height: 220px;" src="app/modules/shop/img/slide-show-1.jpg"/>
+            <div class="desc">
+              <h3 style="color: #617e89;">New Collection</h3>
+              <p>THis crisp white cotton poplin<br> shirt has wide cuffs</p>
+              <a class="button  button-assertive capital">{{'DISCOVER' | translate}}</a>
+            </div>
+          </div>
+        </div>
+      </ion-slide>
+      <ion-slide>
+        <div id="shop">
+          <div class="content">
+            <img class="full-width" style="height: 220px;" src="app/modules/shop/img/slide-show-2.jpg"/>
+            <div class="desc">
+              <h3 style="color: #617e89;">New Collection</h3>
+              <p>THis crisp white cotton poplin<br> shirt has wide cuffs</p>
+              <a class="button  button-assertive capital">{{'DISCOVER' | translate}}</a>
+            </div>
+          </div>
+        </div>
+      </ion-slide>
+      <ion-slide>
+        <div id="shop">
+          <div class="content">
+            <img class="full-width" style="height: 220px;" src="app/modules/shop/img/slide-show-3.jpg"/>
+            <div class="desc">
+              <h3 style="color: #617e89;">New Collection</h3>
+              <p>THis crisp white cotton poplin<br> shirt has wide cuffs</p>
+              <a class="button  button-assertive capital">{{'DISCOVER' | translate}}</a>
+            </div>
+          </div>
+        </div>
+      </ion-slide>
+    </ion-slide-box>
+
+    <hr width="100" size="2">
+    <h4 class="align-center">FEATURED BRANDS</h4>
+    <hr width="100" size="2">
+
+    <div class="row">
+      <div class="col">
+        <div class="row zero-padding" style="height: 50%;">
+          <div class="list card card-margin full-height">
+            <div class="item item-image full-height" >
+              <img src="app/modules/shop/img/featured-2.jpg" class="full-height">
+              <div class="text-on-image card-title-shadow" >
+                <h2 class="align-center">$ 30</h2>
+                <h3 class="align-center">Converse</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row zero-padding" style="height: 50%;">
+          <div class="list card card-margin full-height">
+            <div class="item item-image full-height" >
+              <img src="app/modules/shop/img/featured-3.jpg" class="full-height">
+              <div class="text-on-image card-title-shadow" >
+                <h2 class="align-center">$ 480</h2>
+                <h3 class="align-center">Lookbook Spring</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="list card card-margin full-height" >
+          <div class="item item-image full-height" >
+            <img src="app/modules/shop/img/featured-1.jpg" class="full-height">
+            <div class="text-on-image card-title-shadow">
+              <h2 class="align-center">$ 150</h2>
+              <h3 class="align-center">Contemporory Classic</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <hr width="100" size="2">
+    <h4 class="align-center">LATEST ITEMS</h4>
+    <hr width="100" size="2">
+
+    <div class="row">
+      <div class="col zero-padding">
+        <div class="list card wish-list-card" ng-click="openItemDetails()">
+          <div class="item item-image" >
+            <img src="app/modules/shop/img/wish-1.jpg" class="full-width full-height">
+          </div>
+          <div class="item tabs-secondary tabs-icon-left white-tabs" style="padding: 10px;">
+            <h2 class="align-center">Casual Suit</h2>
+            <h3 class="align-center">$ 100</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col zero-padding">
+        <div class="list card wish-list-card" ng-click="openItemDetails()">
+          <div class="item item-image" >
+            <img src="app/modules/shop/img/wish-2.jpg" class="full-width full-height">
+          </div>
+          <div class="item tabs-secondary tabs-icon-left white-tabs" style="padding: 10px;">
+            <h2 class="align-center">Formal Suit</h2>
+            <h3 class="align-center">$ 100</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col zero-padding">
+        <div class="list card wish-list-card" ng-click="openItemDetails()">
+          <div class="item item-image" >
+            <img src="app/modules/shop/img/wish-3.png" class="full-width full-height">
+          </div>
+          <div class="item tabs-secondary tabs-icon-left white-tabs" style="padding: 10px;">
+            <h2 class="align-center">Women Frock</h2>
+            <h3 class="align-center">$ 100</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col zero-padding">
+        <div class="list card wish-list-card" ng-click="openItemDetails()">
+          <div class="item item-image" >
+            <img src="app/modules/shop/img/wish-4.jpg" class="full-width full-height">
+          </div>
+          <div class="item tabs-secondary tabs-icon-left white-tabs" style="padding: 10px;">
+            <h2 class="align-center">Party Frock</h2>
+            <h3 class="align-center">$ 100</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
+
+

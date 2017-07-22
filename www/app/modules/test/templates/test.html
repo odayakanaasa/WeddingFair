@@ -1,0 +1,26 @@
+<!--image card-->
+<ion-view>
+  <ion-content class="">
+    <!--<div class="tabs has-header-md tabs-darker">-->
+      <!--<a class="tab-item active" href="">-->
+        <!--<p class="capital">{{'WHAT_S_NEW' | translate}}</p>-->
+      <!--</a>-->
+      <!--<a class="tab-item" href="">-->
+        <!--<p class="capital">{{'JUST_FOR_YOU' | translate}}</p>-->
+      <!--</a>-->
+    <!--</div>-->
+
+    <ion-tabs class="tabs tabs-darker">
+      <ion-tab title="Home" icon="" href="#/tab/home">
+        <ion-nav-view name="home-tab"></ion-nav-view>
+      </ion-tab>
+      <ion-tab title="About" icon="" href="#/tab/about">
+        <ion-nav-view name="about-tab"></ion-nav-view>
+      </ion-tab>
+      <ion-tab title="Contact" icon="" ui-sref="tabs.contact">
+        <ion-nav-view name="contact-tab"></ion-nav-view>
+      </ion-tab>
+    </ion-tabs>
+  </ion-content>
+</ion-view>
+
