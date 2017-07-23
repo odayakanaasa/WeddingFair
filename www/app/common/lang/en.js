@@ -48,7 +48,13 @@ angular.module('lang_en',['pascalprecht.translate','ngSanitize'])
       PLEASE_SELECT_ACCOUNT_ROLE:'Please select the role for your account',
       I_AM_BUYER:"I'm a Buyer",
       I_AM_SELLER:"I'm a Seller",
-      SERVER_ERROR:'Server Error'
+      SERVER_ERROR:'Server Error',
+
+      HELP_AND_FEEDBACK:"Help & Feedback",
+      SHARE_APP:"Share App",
+      ABOUT_US:"About Us",
+      RATE_US:"Rate Us",
+
     });
     $translateProvider.useSanitizeValueStrategy('escapeParameters');
   }]);

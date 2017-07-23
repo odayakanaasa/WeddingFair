@@ -252,3 +252,19 @@ background-color: #f68469;
   font-size: 20px;
   color: #a6a5ab;
 }
+.swiper-container {
+  height:35% !important;
+}
+.swiper-slide{
+  text-align: center;
+}
+.info-row{
+  font-size: 15px;
+  color: #fff;
+  font-weight: 500;
+  padding: 12px 0;
+
+}
+.info-row > i {
+  padding : 0 15px;
+}

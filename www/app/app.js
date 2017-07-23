@@ -10,7 +10,8 @@ var arcMall = angular.module('arcMall', [
   'lang_en',
   'modules',
   'tabSlideBox',
-  'config.module'
+  'config.module',
+  'ksSwiper'
 ]);
 
 // translation config

@@ -7,14 +7,12 @@ AuthSignUpCtrl.$inject = ['$scope','$rootScope','$state','$stateParams','appConf
 function AuthSignUpCtrl($scope,$rootScope,$state,$stateParams,appConfig) {
 
   $scope.appConfig = appConfig;
-  if($stateParams.account_type!==null){
-    $scope.selectedAccountType = $stateParams.account_type;
-  }else{
-    $state.go('selectAccountRole');
-  }
 
   $scope.goBack = function () {
-    $state.go('selectAccountRole');
+    $state.go('authSignIn');
   };
+  $scope.openSignIn = function () {
+    $state.go('authSignIn');
+  }
 
 }

@@ -66,7 +66,7 @@ function HomeCtrl($scope,$state,$filter,$rootScope,$timeout,$mdSidenav,$log,$mdB
   };
   $scope.openSignIn= function () {
     $scope.close();
-    $state.go('authHome');
+    $state.go('authSignIn');
   };
 
   $scope.showListBottomSheet = function() {

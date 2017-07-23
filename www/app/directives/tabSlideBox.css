@@ -45,7 +45,8 @@
   -webkit-transform:translate3d(0,8px,0);
 }
 .tabbed-slidebox .tsb-icons a.active {
-  color: #fff;
+  color: #0476b5;
+  /*color: #fff;*/
   font-size: 3.5em;
   -webkit-transform:translate3d(0,0,0);
 }
@@ -57,7 +58,8 @@
 .tsb-hscroll.scroll-view{
   white-space: nowrap;
   margin:0 auto;
-  background: #2b3036;
+  background: #fff;
+  /*background: #2b3036;*/
   height: 50px;
 }
 .tsb-hscroll.scroll-view .scroll-bar{
@@ -69,7 +71,7 @@
 .tabbed-slidebox .tsb-icons .scroll a{
   font-size: 100%;
   width:auto;
-  min-width: 90px;
+  min-width: 125px;
   line-height: 30px;
   text-decoration: none;
   text-transform: uppercase;
@@ -81,5 +83,6 @@
   /*font-size: 1.8em;*/
   line-height: 48px !important;
   font-size: 100%;
-  border-bottom: 3px solid #fff;
+  /*border-bottom: 3px solid #fff;*/
+  border-bottom: 3px solid #0476b5;
 }

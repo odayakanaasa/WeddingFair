@@ -1,6 +1,6 @@
 /* Empty. Add your own CSS if you like */
 ion-content{
-  background: #e8e8e8;
+  background: #fff;
 }
 .padding{
   padding:20px;
@@ -118,7 +118,7 @@ ion-content{
   top: 104px !important;
 }
 .has-header-md-search {
-  top: 110px !important;
+  top: 25% !important;
 }
 .left-title{
   margin-left: 60px;

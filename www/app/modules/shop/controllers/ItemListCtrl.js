@@ -6,8 +6,12 @@ ItemListCtrl.$inject = ['$scope','$state','$rootScope','$mdSidenav','$log'];
 
 function ItemListCtrl($scope,$state,$rootScope,$mdSidenav,$log) {
 
-  $scope.openItemDetails = function(){
-    $state.go('item');
+  $scope.goHome = function(){
+    $state.go('home');
+  };
+
+  $scope.openServiceProvider = function () {
+    $state.go('service-provider');
   };
 
 }

@@ -29,4 +29,9 @@ shopModule.config(function config($stateProvider,$urlRouterProvider) {
       templateUrl: 'app/modules/shop/templates/item.html',
       controller: 'ItemCtrl'
     })
+    .state('service-provider', {
+      url: '/service-provider',
+      templateUrl: 'app/modules/shop/templates/service-provider.html',
+      controller: 'ServiceProviderCtrl'
+    })
 });
