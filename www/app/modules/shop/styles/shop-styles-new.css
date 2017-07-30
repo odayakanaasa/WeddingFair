@@ -84,7 +84,7 @@
 .info-row > i {
   padding : 0 15px;
 }
-.home-background{
+.home-background {
   background-image: url('../img/new/home-background.jpg');
   background-size: cover;
   display: block;
@@ -95,6 +95,13 @@
   position: fixed;
   right: 0;
   z-index: 0;
+}
+.non-scrolling-gradient-background > .scroll-content{
+  background: url("../img/new/Gradient.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+
 }
 .non-scrolling-background > .scroll-content{
   /*background: url("../img/new/home-background.jpg") no-repeat center center fixed;*/

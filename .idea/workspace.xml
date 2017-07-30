@@ -1,70 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbb388f8-2805-43d8-bc5c-d638efde05db" name="Default" comment="service provider's page">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/app/modules/shop/img/auth-home.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/app/modules/shop/img/gradient.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/app/modules/shop/img/new/Gradient_1.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/app/modules/shop/img/new/Gradient_2.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/app/modules/shop/img/new/Gradient_3.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/app/modules/shop/img/new/home-background-10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/app/modules/shop/img/new/home-background.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/app/modules/shop/styles/shop-styles-new.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/app/modules/shop/templates/home_2.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/modules/auth/img/74b8506683cb892e48afb80b2ca010d4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/modules/auth/img/auth-home.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/modules/checkout/checkout.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/modules/checkout/controllers/CartCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/modules/checkout/img/cart-item-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/modules/checkout/img/cart-item-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/modules/checkout/img/cart-item-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/modules/checkout/styles/checkout-styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/modules/checkout/templates/cart.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/modules/shop/controllers/CategoryCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/modules/shop/controllers/ItemCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/modules/shop/img/cat-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/modules/shop/img/cat-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/modules/shop/img/cat-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/modules/shop/img/cat-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/modules/shop/img/cat-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/modules/shop/img/cat-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/modules/shop/img/cat-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/modules/shop/img/cat-8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/modules/shop/img/cat-9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/modules/shop/img/featured-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/modules/shop/img/featured-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/modules/shop/img/featured-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/modules/shop/img/home-slide-nav.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/modules/shop/img/item-slide-blue-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/modules/shop/img/item-slide-blue-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/modules/shop/img/item-slide-blue-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/modules/shop/img/item-slide-pink-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/modules/shop/img/item-slide-pink-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/modules/shop/img/item-slide-pink-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/modules/shop/img/slide-show-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/modules/shop/img/slide-show-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/modules/shop/img/slide-show-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/modules/shop/img/wish-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/modules/shop/img/wish-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/modules/shop/img/wish-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/modules/shop/img/wish-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/modules/shop/img/wish-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/modules/shop/img/wish-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/modules/shop/img/wish-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/modules/shop/templates/categories.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/modules/shop/templates/item.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/WeddingFair.iml" afterPath="$PROJECT_DIR$/.idea/WeddingFair.iml" />
+    <list default="true" id="bbb388f8-2805-43d8-bc5c-d638efde05db" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/app/modules/shop/img/new/Gradient.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/app/modules/shop/img/new/Gradient_4.JPG" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/modules/auth/styles/auth-styles.css" afterPath="$PROJECT_DIR$/www/app/modules/auth/styles/auth-styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/modules/modules.js" afterPath="$PROJECT_DIR$/www/app/modules/modules.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/modules/shop/controllers/HomeCtrl.js" afterPath="$PROJECT_DIR$/www/app/modules/shop/controllers/HomeCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/modules/shop/shop.config.js" afterPath="$PROJECT_DIR$/www/app/modules/shop/shop.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/modules/shop/styles/shop-styles.css" afterPath="$PROJECT_DIR$/www/app/modules/shop/styles/shop-styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/modules/shop/templates/home.html" afterPath="$PROJECT_DIR$/www/app/modules/shop/templates/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/modules/shop/styles/shop-styles-new.css" afterPath="$PROJECT_DIR$/www/app/modules/shop/styles/shop-styles-new.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/modules/shop/templates/item-list.html" afterPath="$PROJECT_DIR$/www/app/modules/shop/templates/item-list.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/modules/shop/templates/service-provider.html" afterPath="$PROJECT_DIR$/www/app/modules/shop/templates/service-provider.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -81,7 +24,7 @@
       <file leaf-file-name="shop-styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/app/modules/shop/styles/shop-styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1113">
+            <state relative-caret-position="2439">
               <caret line="185" column="0" lean-forward="false" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
               <folding />
             </state>
@@ -91,8 +34,8 @@
       <file leaf-file-name="shop-styles-new.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/app/modules/shop/styles/shop-styles-new.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="158" column="0" lean-forward="true" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+            <state relative-caret-position="51">
+              <caret line="99" column="44" lean-forward="false" selection-start-line="99" selection-start-column="14" selection-end-line="99" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -108,20 +51,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="item-list.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="item-list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/app/modules/shop/templates/item-list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="76" column="22" lean-forward="false" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
+            <state relative-caret-position="-765">
+              <caret line="15" column="60" lean-forward="false" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#ion-content#0;n#!!top" expanded="true" />
-                <marker date="1501427778161" expanded="false" signature="3587:3601" ph="..." />
-                <marker date="1501427778161" expanded="false" signature="3762:3775" ph="..." />
+                <element signature="n#style#0;n#div#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+                <marker date="1501428537073" expanded="false" signature="3659:3673" ph="..." />
+                <marker date="1501428537073" expanded="false" signature="3834:3847" ph="..." />
               </folding>
             </state>
           </provider>
@@ -130,9 +73,25 @@
       <file leaf-file-name="home_2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/app/modules/shop/templates/home_2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="36" column="82" lean-forward="false" selection-start-line="36" selection-start-column="82" selection-end-line="36" selection-end-column="82" />
+            <state relative-caret-position="85">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="63" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="service-provider.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/app/modules/shop/templates/service-provider.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="21" column="86" lean-forward="false" selection-start-line="21" selection-start-column="86" selection-end-line="21" selection-end-column="86" />
+              <folding>
+                <element signature="n#style#0;n#h4#0;n#div#1;n#div#0;n#ion-header-bar#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+                <marker date="1501429317239" expanded="false" signature="523:535" ph="..." />
+                <marker date="1501429317239" expanded="false" signature="2309:2326" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -199,16 +158,16 @@
         <option value="$PROJECT_DIR$/www/app/modules/shop/controllers/ServiceProviderCtrl.js" />
         <option value="$PROJECT_DIR$/www/app/common/lang/en.js" />
         <option value="$PROJECT_DIR$/www/app/modules/shop/templates/home.html" />
-        <option value="$PROJECT_DIR$/www/app/modules/shop/templates/service-provider.html" />
         <option value="$PROJECT_DIR$/www/app/modules/shop/shop.config.js" />
         <option value="$PROJECT_DIR$/www/app/modules/modules.js" />
         <option value="$PROJECT_DIR$/www/app/modules/auth/styles/auth-styles.css" />
         <option value="$PROJECT_DIR$/www/app/modules/shop/styles/shop-styles.css" />
-        <option value="$PROJECT_DIR$/www/app/modules/shop/styles/shop-styles-new.css" />
         <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/www/app/modules/shop/controllers/HomeCtrl.js" />
         <option value="$PROJECT_DIR$/www/app/modules/shop/templates/home_2.html" />
+        <option value="$PROJECT_DIR$/www/app/modules/shop/styles/shop-styles-new.css" />
         <option value="$PROJECT_DIR$/www/app/modules/shop/templates/item-list.html" />
+        <option value="$PROJECT_DIR$/www/app/modules/shop/templates/service-provider.html" />
       </list>
     </option>
   </component>
@@ -298,6 +257,42 @@
               <item name="www" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WeddingFair" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WeddingFair" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WeddingFair" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WeddingFair" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WeddingFair" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WeddingFair" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WeddingFair" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WeddingFair" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
               <item name="shop" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -336,6 +331,15 @@
               <item name="modules" type="462c0819:PsiDirectoryNode" />
               <item name="shop" type="462c0819:PsiDirectoryNode" />
               <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WeddingFair" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WeddingFair" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WeddingFair" type="b2602c69:ProjectViewProjectNode" />
@@ -401,8 +405,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\Development\WeddingFair\www\img\wedding_fair" />
       <recent name="F:\Development\WeddingFair\www\app\modules\shop\img\new" />
+      <recent name="F:\Development\WeddingFair\www\img\wedding_fair" />
       <recent name="F:\Development\WeddingFair\www\img\wedding_fair\photography" />
       <recent name="F:\Development\WeddingFair\www\app\modules\shop\img" />
       <recent name="F:\Development\WeddingFair\www\app\modules\shop\templates" />
@@ -502,7 +506,7 @@
       <workItem from="1500700773139" duration="6269000" />
       <workItem from="1500735241986" duration="9546000" />
       <workItem from="1500778406167" duration="1723000" />
-      <workItem from="1501404135172" duration="15889000" />
+      <workItem from="1501404135172" duration="17704000" />
     </task>
     <task id="LOCAL-00001" summary="service provider's page">
       <created>1501391302829</created>
@@ -511,24 +515,31 @@
       <option name="project" value="LOCAL" />
       <updated>1501391302829</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="new UI with gradients">
+      <created>1501427877057</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1501427877057</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35780000" />
+    <option name="totallyTimeSpent" value="37595000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23958333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23958333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3338816" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54111844" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.100328945" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07401316" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14967105" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -549,7 +560,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="service provider's page" />
-    <option name="LAST_COMMIT_MESSAGE" value="service provider's page" />
+    <MESSAGE value="new UI with gradients" />
+    <option name="LAST_COMMIT_MESSAGE" value="new UI with gradients" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -641,21 +653,6 @@
             <element signature="n#style#0;n#md-list-item#4;n#md-list#0;n#md-content#0;n#md-sidenav#0;n#ion-view#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#md-list-item#5;n#md-list#0;n#md-content#0;n#md-sidenav#0;n#ion-view#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#md-list-item#6;n#md-list#0;n#md-content#0;n#md-sidenav#0;n#ion-view#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/templates/service-provider.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="32" column="51" lean-forward="false" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="51" />
-          <folding>
-            <element signature="n#style#0;n#h4#0;n#div#1;n#div#0;n#ion-header-bar#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-            <marker date="1501416558212" expanded="false" signature="523:535" ph="..." />
-            <marker date="1501416558212" expanded="false" signature="2181:2198" ph="..." />
           </folding>
         </state>
       </provider>
@@ -847,22 +844,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/styles/shop-styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1113">
-          <caret line="185" column="0" lean-forward="false" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/styles/shop-styles-new.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="158" column="0" lean-forward="true" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -887,27 +868,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/styles/shop-styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2439">
+          <caret line="185" column="0" lean-forward="false" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/app/modules/shop/templates/home_2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="36" column="82" lean-forward="false" selection-start-line="36" selection-start-column="82" selection-end-line="36" selection-end-column="82" />
+        <state relative-caret-position="85">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/modules/shop/templates/item-list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="76" column="22" lean-forward="false" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
+        <state relative-caret-position="-765">
+          <caret line="15" column="60" lean-forward="false" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#ion-content#0;n#!!top" expanded="true" />
-            <marker date="1501427778161" expanded="false" signature="3587:3601" ph="..." />
-            <marker date="1501427778161" expanded="false" signature="3762:3775" ph="..." />
+            <element signature="n#style#0;n#div#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+            <marker date="1501428537073" expanded="false" signature="3659:3673" ph="..." />
+            <marker date="1501428537073" expanded="false" signature="3834:3847" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/styles/shop-styles-new.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="99" column="44" lean-forward="false" selection-start-line="99" selection-start-column="14" selection-end-line="99" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/templates/service-provider.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="86" lean-forward="false" selection-start-line="21" selection-start-column="86" selection-end-line="21" selection-end-column="86" />
+          <folding>
+            <element signature="n#style#0;n#h4#0;n#div#1;n#div#0;n#ion-header-bar#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+            <marker date="1501429317239" expanded="false" signature="523:535" ph="..." />
+            <marker date="1501429317239" expanded="false" signature="2309:2326" ph="..." />
           </folding>
         </state>
       </provider>
