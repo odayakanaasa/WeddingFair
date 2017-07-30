@@ -6,13 +6,8 @@ shopModule.config(function config($stateProvider,$urlRouterProvider) {
   $stateProvider
     .state('home', {
       url: '/home',
-      templateUrl: 'app/modules/shop/templates/home.html',
+      templateUrl: 'app/modules/shop/templates/home_2.html',
       controller: 'HomeCtrl'
-    })
-    .state('categories', {
-      url: '/categories',
-      templateUrl: 'app/modules/shop/templates/categories.html',
-      controller: 'CategoryCtrl'
     })
     .state('wish-list', {
       url: '/wish-list',
@@ -23,11 +18,6 @@ shopModule.config(function config($stateProvider,$urlRouterProvider) {
       url: '/item-list',
       templateUrl: 'app/modules/shop/templates/item-list.html',
       controller: 'ItemListCtrl'
-    })
-    .state('item', {
-      url: '/item',
-      templateUrl: 'app/modules/shop/templates/item.html',
-      controller: 'ItemCtrl'
     })
     .state('service-provider', {
       url: '/service-provider',

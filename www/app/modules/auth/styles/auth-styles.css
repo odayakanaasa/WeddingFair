@@ -1,7 +1,4 @@
-.auth-background {
-  background: url('../img/auth-home.jpg') no-repeat center;
-  background-size: cover;
-}
+
 .sign-in-background{
   background-image: url('../img/auth-home.jpg');
   background-size: cover;

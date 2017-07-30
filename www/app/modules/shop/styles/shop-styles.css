@@ -12,7 +12,8 @@
   top:13px;
 }
 .logo-wrapper{
-  margin-left: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .filter-icon-wrapper{
   right: 55px;
@@ -181,90 +182,4 @@ background-color: #f68469;
 .wish-list-card > .tabs-secondary{
   padding: 10px !important;
   border-radius: 0 0 8px 8px !important;
-}
-
-.item-slide > .item-slide > .slider-pager {
-  position: absolute;
-  bottom: 20px;
-  z-index: 1;
-  width: 100%;
-  height: 15px;
-  text-align: left;
-  left: 20px;
-}
-.item-title{
-  font-size: 18px !important;
-  font-weight: 600 !important;
-}
-.cart-item-title{
-  font-size: 14px !important;
-  font-weight: 600 !important;
-}
-
-.item-details-collapse{
-  height: 60px;
-  margin: 10px 15px 0 15px;
-  border-radius: 5px;
-  background-color: white !important;
-  border-color: white !important;
-}
-.item-details-collapse > div > i {
-  font-size: 20px;
-  color:#a6a5ab;
-}
-.item-details-collapse > div > span {
-  font-size: 18px;
-  font-weight: 600;
-}
-.list .item.item-accordion {
-  line-height: 38px;
-  margin: 0 15px;
-  padding-top: 0;
-  padding-bottom: 0;
-  transition: 0.09s all linear;
-}
-.list .item.item-accordion.ng-hide {
-  line-height: 0px;
-}
-.list .item.item-accordion.ng-hide-add,
-.list .item.item-accordion.ng-hide-remove {
-  display: block !important;
-}
-.search-box{
-  height:45px;
-  margin-left: 40px;
-}
-.sidebar-toggle{
-  position: absolute;
-  top:8px;
-}
-.md-sidenav-left{
-  margin-top:60px;
-  min-width: 0px;
-  width: 250px !important;
-}
-.sidenav-options{
-  margin-left: 15px;
-  font-size: 15px;
-  font-weight: 500;
-}
-.sidenav-icon{
-  font-size: 20px;
-  color: #a6a5ab;
-}
-.swiper-container {
-  height:35% !important;
-}
-.swiper-slide{
-  text-align: center;
-}
-.info-row{
-  font-size: 15px;
-  color: #fff;
-  font-weight: 500;
-  padding: 12px 0;
-
-}
-.info-row > i {
-  padding : 0 15px;
 }
