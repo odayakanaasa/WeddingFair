@@ -16,7 +16,7 @@ shopModule.config(function config($stateProvider,$urlRouterProvider) {
     })
     .state('item-list', {
       url: '/item-list',
-      templateUrl: 'app/modules/shop/templates/item-list.html',
+      templateUrl: 'app/modules/shop/templates/item-list-2.html',
       controller: 'ItemListCtrl'
     })
     .state('service-provider', {

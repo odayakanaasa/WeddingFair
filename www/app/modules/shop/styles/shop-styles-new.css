@@ -97,7 +97,8 @@
   z-index: 0;
 }
 .non-scrolling-gradient-background > .scroll-content{
-  background: url("../img/new/Gradient.jpg") no-repeat center center fixed;
+  background: url("../img/new/home-background-10.jpg") no-repeat center center fixed;
+  /*background: url("../img/new/Gradient.jpg") no-repeat center center fixed;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -162,4 +163,16 @@
   position: absolute;
   left: 10px;
   /*bottom: 10px;*/
+}
+.discount-area{
+  width: 60px;
+  height: 50px;
+  background: #e33030  !important;
+  color:white;
+}
+.bookmark-btn{
+  position: absolute;
+  right: 17px;
+  font-size: 30px;
+  top: 75px;
 }
