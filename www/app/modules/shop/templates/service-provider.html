@@ -6,7 +6,9 @@
       </a>
     </div>
     <div class="logo-wrapper">
-      <h4 style="padding: 0 15px;color: #0476b5;">John Doe Photography</h4>
+      <h4 style="padding: 0 15px;color: #0476b5;">John Doe Photography
+      </h4>
+
       <!--<a class="button button-icon" href="#/home"><img src="img/wedding_fair/logo.png"  style="height:47px;"></a>-->
     </div>
     <div class="absolute cart-icon-wrapper">
@@ -26,7 +28,7 @@
           <img ng-src="img/wedding_fair/studios/3000.jpg" style="width:150px;height: 160px;padding:10px 5px;">
         </div>
         <div class="col zero-padding"  style="max-width:50% !important;">
-          <div class="row info-row"><i class="ion-android-call"></i> 0776266622 / 0778182888</div>
+          <div class="row info-row"><i class="ion-android-call"></i> 0776266622  0778182888</div>
           <div class="row info-row"><i class="ion-ios-home"></i> No 123<br>Galle Road<br>Bambalapitiya<br>Colombo</div>
 
         </div>
@@ -37,8 +39,11 @@
       <!--</div>-->
     </div>
     <div class="row zero-padding"  style="background:url('../app/modules/shop/img/new/Gradient_4.jpg'); height: 45px;">
-      <div class="info-row absolute" style="right: 25px;"><i class="ion-ios-location"></i> Get Directions</div>
-      <div class="info-row absolute" style="right: 25px;"><i class="ion-ios-location"></i> Get Directions</div>
+      <div class="info-row absolute" style="padding: 5px 0;"><i class="ion-android-star-outline font-L"></i>
+        Rate Us
+        <span style="font-size:12px;">( <i class="ion-android-star" style="color: #ffed00;"></i> 45 )</span>
+      </div>
+      <div class="info-row absolute" style="padding: 5px 0;right: 25px;"><i class="ion-ios-location"></i> Get Directions</div>
     </div>
   </div>
 
@@ -53,36 +58,43 @@
     </div>
     <ion-slide-box show-pager="false" on-slide-changed="slideHasChanged($index)">
       <ion-slide>
-        <!--<div>-->
-          <!--<ion-content style="padding-top:10px;">-->
-            <!--<ks-swiper-container swiper="swiper"-->
-                                 <!--on-ready="onReadySwiper(swiper)"-->
-                                 <!--initial-slide="0"-->
-                                 <!--speed="2000"-->
-                                 <!--show-nav-buttons="false"-->
-                                 <!--slides-per-view="1"-->
-                                 <!--space-between="0"-->
-                                 <!--pagination-is-active="true"-->
-                                 <!--pagination-clickable="true"-->
-                                 <!--autoplay="2000"-->
-                                 <!--override-parameters="{-->
-                         <!--effect: 'coverflow',-->
-                         <!--coverflow: {-->
-                             <!--rotate: 50,-->
-                             <!--stretch: 0,-->
-                             <!--depth: 100,-->
-                             <!--modifier: 1,-->
-                             <!--slideShadows : false}-->
-                         <!--}">-->
-              <!--<ks-swiper-slide class="swiper-slide" ng-repeat="s in [1,2,3]">-->
-                <!--<img ng-src="img/wedding_fair/studios/slider/slider-pic-{{s}}.jpg" width="100%">sdfg-->
-              <!--</ks-swiper-slide>-->
-            <!--</ks-swiper-container>-->
-          <!--</ion-content>-->
-        <!--</div>-->
+          <div class="row zero-padding">
+            <div class="col" style="padding-right:2px;">
+              <div ng-repeat="image in processedGallery.col_1 track by $index">
+                <img ng-src="app/modules/shop/img/gallery/{{image.imageUrl}}" class="full-width">
+              </div>
+            </div>
+            <div class="col" style="padding-left:2px;">
+              <div ng-repeat="image in processedGallery.col_2 track by $index">
+                <img ng-src="app/modules/shop/img/gallery/{{image.imageUrl}}" class="full-width">
+              </div>
+            </div>
+          </div>
       </ion-slide>
       <ion-slide>
-        <h3>Games content</h3>
+        <ion-list>
+          <div class="card">
+            <ion-item>
+              <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/wyVM1evRxNw" frameborder="0" width="560" height="315"></iframe>
+              </div>
+            </ion-item>
+          </div>
+          <div class="card">
+            <ion-item>
+              <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/gvI2ClWqHO0" frameborder="0" width="560" height="315"></iframe>
+              </div>
+            </ion-item>
+          </div>
+          <div class="card">
+            <ion-item>
+              <div class="video-container">
+                <iframe src="http://www.youtube.com/embed/uJAWaE11Jf4" frameborder="0" width="560" height="315"></iframe>
+              </div>
+            </ion-item>
+          </div>
+        </ion-list>
       </ion-slide>
       <ion-slide>
         <h3>Mail content</h3>

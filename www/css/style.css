@@ -114,6 +114,9 @@ ion-content{
 .has-header-md{
   top:60px !important;
 }
+.has-header-lg{
+  top:90px !important;
+}
 .has-header-md-tab{
   top: 104px !important;
 }
@@ -124,7 +127,7 @@ ion-content{
   margin-left: 60px;
 }
 .bar-subheader{
-  background-color:#fc8d33;
+  /*background-color:#fc8d33;*/
   box-shadow: 2px 3px 3px 0px rgba(41, 41, 41, .3);
 }
 .padding-top-zero{
