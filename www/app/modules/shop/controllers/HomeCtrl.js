@@ -32,7 +32,14 @@ function HomeCtrl($scope,$state,$filter,$rootScope,$timeout,$mdSidenav,$log,$mdB
       "providerCount":100,
       "bookmarkedCount":10,
     },
-  ]
+  ];
+
+  $scope.searchEnabled = false;
+
+  $scope.toggleSearch = function() {
+    console.log('asds');
+    $scope.searchEnabled = !$scope.searchEnabled;
+  };
 
   $scope.goServiceProvidersList = function () {
     $state.go('item-list');

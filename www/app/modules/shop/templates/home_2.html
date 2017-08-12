@@ -1,5 +1,5 @@
 <ion-header-bar class="bar bar-header header-md ">
-  <div style="width: 100%; display: inherit; margin-top: 0px !important;" >
+  <div style="width: 100%; display: inherit; margin-top: 0px !important;" ng-show="!searchEnabled">
     <div class="search-box-wrapper">
         <div class="absolute toggle-side-wrapper">
           <a class="button button-icon row"  ng-click="toggleSideBarHome()">
@@ -12,13 +12,24 @@
         <img src="img/wedding_fair/WFLogo.png"  style="height:75px;">
       </a>
     </div>
-    <div class="absolute cart-icon-wrapper">
-      <a class="button button-icon row" href="#/cart">
-        <i class="ion-search font-L black" ></i>
-      </a>
-    </div>
+    <!--<div class="absolute cart-icon-wrapper">-->
+      <!--<a class="button button-icon row" ng-click="toggleSearch();">-->
+        <!--<i class="ion-search font-L black" ></i>-->
+      <!--</a>-->
+    <!--</div>-->
   </div>
+  <!--<div  ng-show="searchEnabled">-->
+    <!--<label class="item-input-wrapper">-->
+      <!--<i class="icon ion-ios-search placeholder-icon"></i>-->
+      <!--<input type="search" placeholder="Search">-->
+    <!--</label>-->
+    <!--<button class="button button-clear">-->
+      <!--Cancel-->
+    <!--</button>-->
+  <!--</div>-->
+
 </ion-header-bar>
+
 
 
 <ion-view  cache-view="false" class="non-scrolling-background">

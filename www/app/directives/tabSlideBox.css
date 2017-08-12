@@ -9,7 +9,8 @@
   display:none;
 }
 .tabbed-slidebox .slider {
-  height: 100%;
+  height: auto;
+  min-height: 100%;
 }
 .tabbed-slidebox.btm .slider {
   margin-bottom: -50px;
