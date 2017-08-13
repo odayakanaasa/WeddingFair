@@ -14,5 +14,8 @@ function AuthSignUpCtrl($scope,$rootScope,$state,$stateParams,appConfig) {
   $scope.openSignIn = function () {
     $state.go('authSignIn');
   }
+  $scope.goToStep2 = function () {
+    $state.go('authSignUpStep2');
+  };
 
 }

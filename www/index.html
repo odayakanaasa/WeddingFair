@@ -19,7 +19,8 @@
 
     <link href="lib/ionic/css/ionic.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+    <link rel="stylesheet" href="css/angular-material.min.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
     <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
     <link href="css/ionic.app.css" rel="stylesheet">
     -->
@@ -39,11 +40,11 @@
 
     <!--material-->
     <!-- Angular Material requires Angular.js Libraries -->
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+    <script src="lib/angular-animate.min.js"></script>
+    <script src="lib/angular-aria.min.js"></script>
+    <script src="lib/angular-messages.min.js"></script>
     <!-- Angular Material Library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+    <script src="lib/angular-material.min.js"></script>
 
     <!--common-->
     <script src="app/common/lang/en.js"></script>
@@ -61,6 +62,7 @@
     <script src="app/modules/auth/auth.config.js"></script>
     <script src="app/modules/auth/controllers/AuthSignInCtrl.js"></script>
     <script src="app/modules/auth/controllers/AuthSignUpCtrl.js"></script>
+    <script src="app/modules/auth/controllers/AuthSignUpStep2Ctrl.js"></script>
     <link href="app/modules/auth/styles/auth-styles.css" rel="stylesheet">
     <!--shopping-->
     <script src="app/modules/shop/shop.config.js"></script>

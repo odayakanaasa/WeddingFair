@@ -2,12 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbb388f8-2805-43d8-bc5c-d638efde05db" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/app/modules/shop/img/new/Gradient.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/app/modules/shop/img/new/Gradient_4.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/img/home-background.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/img/wedding_fair/WFLogo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/img/wedding_fair/photography/gradient.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/app/modules/auth/controllers/AuthSignUpStep2Ctrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/app/modules/auth/templates/auth-sign-up-step-2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/angular-material.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/fonts/fontawesome-webfont.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/common/lang/en.js" afterPath="$PROJECT_DIR$/www/app/common/lang/en.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/modules/auth/auth.config.js" afterPath="$PROJECT_DIR$/www/app/modules/auth/auth.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/modules/auth/controllers/AuthSignUpCtrl.js" afterPath="$PROJECT_DIR$/www/app/modules/auth/controllers/AuthSignUpCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/modules/auth/templates/auth-sign-up.html" afterPath="$PROJECT_DIR$/www/app/modules/auth/templates/auth-sign-up.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/modules/shop/styles/shop-styles-new.css" afterPath="$PROJECT_DIR$/www/app/modules/shop/styles/shop-styles-new.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/modules/shop/templates/item-list.html" afterPath="$PROJECT_DIR$/www/app/modules/shop/templates/item-list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/modules/shop/templates/service-provider.html" afterPath="$PROJECT_DIR$/www/app/modules/shop/templates/service-provider.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,96 +35,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="shop-styles.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/app/modules/shop/styles/shop-styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2439">
-              <caret line="185" column="0" lean-forward="false" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shop-styles-new.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/app/modules/shop/styles/shop-styles-new.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="99" column="44" lean-forward="false" selection-start-line="99" selection-start-column="14" selection-end-line="99" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="71" column="36" lean-forward="false" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
+            <state relative-caret-position="252">
+              <caret line="70" column="41" lean-forward="false" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="item-list.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/app/modules/shop/templates/item-list.html">
+      <file leaf-file-name="angular-material.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/css/angular-material.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-765">
-              <caret line="15" column="60" lean-forward="false" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-                <marker date="1501428537073" expanded="false" signature="3659:3673" ph="..." />
-                <marker date="1501428537073" expanded="false" signature="3834:3847" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home_2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/app/modules/shop/templates/home_2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="63" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="service-provider.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/www/app/modules/shop/templates/service-provider.html">
+      <file leaf-file-name="angular-aria.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/lib/angular-aria.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="21" column="86" lean-forward="false" selection-start-line="21" selection-start-column="86" selection-end-line="21" selection-end-column="86" />
-              <folding>
-                <element signature="n#style#0;n#h4#0;n#div#1;n#div#0;n#ion-header-bar#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-                <marker date="1501429317239" expanded="false" signature="523:535" ph="..." />
-                <marker date="1501429317239" expanded="false" signature="2309:2326" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomeCtrl.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/app/modules/shop/controllers/HomeCtrl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="19" />
+            <state relative-caret-position="170">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/css/style.css">
+      <file leaf-file-name="shop.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/app/modules/shop/shop.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2040">
-              <caret line="120" column="8" lean-forward="false" selection-start-line="120" selection-start-column="8" selection-end-line="120" selection-end-column="8" />
+            <state relative-caret-position="346">
+              <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthSignUpStep2Ctrl.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/app/modules/auth/controllers/AuthSignUpStep2Ctrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthSignInCtrl.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/app/modules/auth/controllers/AuthSignInCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthSignUpCtrl.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/app/modules/auth/controllers/AuthSignUpCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="auth-sign-up-step-2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/app/modules/auth/templates/auth-sign-up-step-2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="auth-sign-up.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/app/modules/auth/templates/auth-sign-up.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="54" column="23" lean-forward="true" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="auth.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/app/modules/auth/auth.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -130,6 +149,7 @@
       <find>cart-icon-wrapper</find>
       <find>search-box-wrapper</find>
       <find>zero-padding</find>
+      <find>animate</find>
     </findStrings>
     <replaceStrings>
       <replace>openServiceProvider</replace>
@@ -146,8 +166,6 @@
       <list>
         <option value="$PROJECT_DIR$/config.xml" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/www/app/modules/auth/controllers/AuthSignUpCtrl.js" />
-        <option value="$PROJECT_DIR$/www/app/modules/auth/templates/auth-sign-up.html" />
         <option value="$PROJECT_DIR$/www/app/modules/auth/templates/auth-sign-in.html" />
         <option value="$PROJECT_DIR$/www/app/modules/auth/controllers/AuthSignInCtrl.js" />
         <option value="$PROJECT_DIR$/www/app/modules/shop/controllers/ItemListCtrl.js" />
@@ -156,18 +174,23 @@
         <option value="$PROJECT_DIR$/www/app/directives/tabSlideBox.css" />
         <option value="$PROJECT_DIR$/www/css/style.css" />
         <option value="$PROJECT_DIR$/www/app/modules/shop/controllers/ServiceProviderCtrl.js" />
-        <option value="$PROJECT_DIR$/www/app/common/lang/en.js" />
         <option value="$PROJECT_DIR$/www/app/modules/shop/templates/home.html" />
         <option value="$PROJECT_DIR$/www/app/modules/shop/shop.config.js" />
         <option value="$PROJECT_DIR$/www/app/modules/modules.js" />
         <option value="$PROJECT_DIR$/www/app/modules/auth/styles/auth-styles.css" />
         <option value="$PROJECT_DIR$/www/app/modules/shop/styles/shop-styles.css" />
-        <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/www/app/modules/shop/controllers/HomeCtrl.js" />
         <option value="$PROJECT_DIR$/www/app/modules/shop/templates/home_2.html" />
-        <option value="$PROJECT_DIR$/www/app/modules/shop/styles/shop-styles-new.css" />
         <option value="$PROJECT_DIR$/www/app/modules/shop/templates/item-list.html" />
         <option value="$PROJECT_DIR$/www/app/modules/shop/templates/service-provider.html" />
+        <option value="$PROJECT_DIR$/www/app/modules/shop/styles/shop-styles-new.css" />
+        <option value="$PROJECT_DIR$/www/app/common/lang/en.js" />
+        <option value="$PROJECT_DIR$/www/app/modules/auth/auth.config.js" />
+        <option value="$PROJECT_DIR$/www/app/modules/auth/controllers/AuthSignUpStep2.js" />
+        <option value="$PROJECT_DIR$/www/app/modules/auth/controllers/AuthSignUpCtrl.js" />
+        <option value="$PROJECT_DIR$/www/app/modules/auth/templates/auth-sign-up-step-2.html" />
+        <option value="$PROJECT_DIR$/www/app/modules/auth/templates/auth-sign-up.html" />
+        <option value="$PROJECT_DIR$/www/index.html" />
       </list>
     </option>
   </component>
@@ -193,8 +216,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-32" />
-    <option name="y" value="-13" />
+    <option name="x" value="530" />
+    <option name="y" value="104" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -216,7 +239,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -235,6 +257,35 @@
               <item name="WeddingFair" type="462c0819:PsiDirectoryNode" />
               <item name="www" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WeddingFair" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WeddingFair" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WeddingFair" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WeddingFair" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WeddingFair" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WeddingFair" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WeddingFair" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WeddingFair" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="directives" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WeddingFair" type="b2602c69:ProjectViewProjectNode" />
@@ -338,43 +389,7 @@
               <item name="www" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WeddingFair" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WeddingFair" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WeddingFair" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WeddingFair" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WeddingFair" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WeddingFair" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WeddingFair" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WeddingFair" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WeddingFair" type="b2602c69:ProjectViewProjectNode" />
@@ -386,12 +401,25 @@
               <item name="WeddingFair" type="b2602c69:ProjectViewProjectNode" />
               <item name="WeddingFair" type="462c0819:PsiDirectoryNode" />
               <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WeddingFair" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WeddingFair" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WeddingFair" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WeddingFair" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -405,11 +433,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Development\WeddingFair\www\css" />
+      <recent name="F:\Development\WeddingFair\www\lib" />
+      <recent name="F:\Development\WeddingFair\www\img" />
+      <recent name="F:\Development\WeddingFair\www\fonts" />
       <recent name="F:\Development\WeddingFair\www\app\modules\shop\img\new" />
-      <recent name="F:\Development\WeddingFair\www\img\wedding_fair" />
-      <recent name="F:\Development\WeddingFair\www\img\wedding_fair\photography" />
-      <recent name="F:\Development\WeddingFair\www\app\modules\shop\img" />
-      <recent name="F:\Development\WeddingFair\www\app\modules\shop\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -522,34 +550,52 @@
       <option name="project" value="LOCAL" />
       <updated>1501427877057</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="new UI with gradients">
+      <created>1502522581984</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1502522581984</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37595000" />
+    <option name="totallyTimeSpent" value="42416000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23958333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25074404" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54111844" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.100328945" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14967105" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31085527" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54111844" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.100328945" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14967105" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23958333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -568,163 +614,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/app/modules/auth/controllers/AuthSignInCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/controllers/ItemCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/templates/item.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="42" column="70" lean-forward="false" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/img/wedding_fair/carousel/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/lib/angular-swiper/src/angular-swiper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="60" column="57" lean-forward="false" selection-start-line="60" selection-start-column="56" selection-end-line="60" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/templates/categories.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2108">
-          <caret line="124" column="20" lean-forward="false" selection-start-line="34" selection-start-column="4" selection-end-line="124" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/controllers/CategoryCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/directives/tabSlideBox.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="60" column="18" lean-forward="false" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/common/lang/en.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/templates/wish-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2326">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="30" column="16" lean-forward="false" selection-start-line="28" selection-start-column="10" selection-end-line="30" selection-end-column="16" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#md-content#0;n#md-sidenav#0;n#ion-view#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#md-list-item#3;n#md-list#0;n#md-content#0;n#md-sidenav#0;n#ion-view#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#md-list-item#4;n#md-list#0;n#md-content#0;n#md-sidenav#0;n#ion-view#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#md-list-item#5;n#md-list#0;n#md-content#0;n#md-sidenav#0;n#ion-view#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#md-list-item#6;n#md-list#0;n#md-content#0;n#md-sidenav#0;n#ion-view#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/modules/auth/templates/auth-sign-in.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/shop.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/modules/modules.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/modules/auth/img/74b8506683cb892e48afb80b2ca010d4.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/modules/auth/img/auth-home.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/modules/auth/img/auth-home.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/modules/auth/styles/auth-styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="31" column="15" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/modules/auth/auth.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/modules/auth/img/auth-home.png" />
     <entry file="file://$PROJECT_DIR$/www/app/modules/shop/controllers/ItemListCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -740,123 +634,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/cat-4.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/cat-6.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/featured-1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/featured-3.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/home-slide-nav.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/item-slide-blue-1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/item-slide-blue-2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/item-slide-blue-3.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/item-slide-pink-1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/item-slide-pink-2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/item-slide-pink-3.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/slide-show-1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/slide-show-2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/slide-show-3.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/wish-1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/wish-2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/wish-3.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/wish-3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/wish-4.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/wish-5.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="71" column="36" lean-forward="false" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/cat-4.png" />
+    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/cat-6.jpg" />
+    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/featured-1.jpg" />
+    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/featured-3.jpg" />
+    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/home-slide-nav.jpg" />
+    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/item-slide-blue-1.jpg" />
+    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/item-slide-blue-2.jpg" />
+    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/item-slide-blue-3.jpg" />
+    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/item-slide-pink-1.jpg" />
+    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/item-slide-pink-2.jpg" />
+    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/item-slide-pink-3.jpg" />
+    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/slide-show-1.jpg" />
+    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/slide-show-2.jpg" />
+    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/slide-show-3.jpg" />
+    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/wish-1.jpg" />
+    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/wish-2.jpg" />
+    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/wish-3.jpg" />
+    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/wish-3.png" />
+    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/wish-4.jpg" />
+    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/wish-5.jpg" />
     <entry file="file://$PROJECT_DIR$/www/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2040">
-          <caret line="120" column="8" lean-forward="false" selection-start-line="120" selection-start-column="8" selection-end-line="120" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="2091">
+          <caret line="123" column="8" lean-forward="false" selection-start-line="123" selection-start-column="8" selection-end-line="123" selection-end-column="8" />
+          <folding>
+            <marker date="1502522611743" expanded="true" signature="1828:1882" ph="{...}" />
+            <marker date="1502522611743" expanded="true" signature="1900:1932" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -864,13 +672,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="19" />
-          <folding />
+          <folding>
+            <marker date="1502522611643" expanded="true" signature="425:1126" ph="[...]" />
+            <marker date="1502522611643" expanded="true" signature="1174:1207" ph="{...}" />
+            <marker date="1502522611643" expanded="true" signature="1247:1301" ph="{...}" />
+            <marker date="1502522611643" expanded="true" signature="1339:1427" ph="{...}" />
+            <marker date="1502522611643" expanded="true" signature="1462:1516" ph="{...}" />
+            <marker date="1502522611643" expanded="true" signature="1603:1858" ph="{...}" />
+            <marker date="1502522611643" expanded="true" signature="1627:1854" ph="{...}" />
+            <marker date="1502522611643" expanded="true" signature="1781:1846" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/modules/shop/styles/shop-styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2439">
+        <state relative-caret-position="3145">
           <caret line="185" column="0" lean-forward="false" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
           <folding />
         </state>
@@ -878,48 +695,231 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/modules/shop/templates/home_2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="63" />
-          <folding />
+        <state relative-caret-position="391">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="63" />
+          <folding>
+            <marker date="1502522611741" expanded="true" signature="1262:5213" ph="..." />
+            <marker date="1502522611741" expanded="false" signature="1320:1329" ph="..." />
+            <marker date="1502522611741" expanded="false" signature="1338:1363" ph="..." />
+            <marker date="1502522611741" expanded="true" signature="1364:2339" ph="..." />
+            <marker date="1502522611741" expanded="true" signature="1447:2320" ph="..." />
+            <marker date="1502522611741" expanded="true" signature="1580:2309" ph="..." />
+            <marker date="1502522611741" expanded="false" signature="1628:1640" ph="..." />
+            <marker date="1502522611741" expanded="true" signature="1641:2296" ph="..." />
+            <marker date="1502522611741" expanded="false" signature="1713:1726" ph="..." />
+            <marker date="1502522611741" expanded="true" signature="1727:2281" ph="..." />
+            <marker date="1502522611741" expanded="true" signature="1885:2103" ph="..." />
+            <marker date="1502522611741" expanded="true" signature="1904:2084" ph="..." />
+            <marker date="1502522611741" expanded="false" signature="2002:2018" ph="..." />
+            <marker date="1502522611741" expanded="true" signature="2146:2264" ph="..." />
+            <marker date="1502522611741" expanded="false" signature="2219:2235" ph="..." />
+            <marker date="1502522611741" expanded="true" signature="2420:5200" ph="..." />
+            <marker date="1502522611741" expanded="true" signature="2437:5184" ph="..." />
+            <marker date="1502522611741" expanded="false" signature="2503:2528" ph="..." />
+            <marker date="1502522611741" expanded="true" signature="2550:5166" ph="..." />
+            <marker date="1502522611741" expanded="false" signature="2600:2648" ph="..." />
+            <marker date="1502522611741" expanded="true" signature="2649:2908" ph="..." />
+            <marker date="1502522611741" expanded="true" signature="2744:2884" ph="..." />
+            <marker date="1502522611741" expanded="false" signature="2957:3005" ph="..." />
+            <marker date="1502522611741" expanded="true" signature="3006:3272" ph="..." />
+            <marker date="1502522611741" expanded="true" signature="3103:3248" ph="..." />
+            <marker date="1502522611741" expanded="false" signature="3356:3404" ph="..." />
+            <marker date="1502522611741" expanded="true" signature="3405:3667" ph="..." />
+            <marker date="1502522611741" expanded="true" signature="3495:3643" ph="..." />
+            <marker date="1502522611741" expanded="false" signature="3716:3764" ph="..." />
+            <marker date="1502522611741" expanded="true" signature="3765:4032" ph="..." />
+            <marker date="1502522611741" expanded="true" signature="3855:4008" ph="..." />
+            <marker date="1502522611741" expanded="false" signature="4081:4129" ph="..." />
+            <marker date="1502522611741" expanded="true" signature="4130:4390" ph="..." />
+            <marker date="1502522611741" expanded="true" signature="4220:4366" ph="..." />
+            <marker date="1502522611741" expanded="true" signature="4488:4756" ph="..." />
+            <marker date="1502522611741" expanded="true" signature="4578:4732" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/modules/shop/templates/item-list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-765">
+        <state relative-caret-position="255">
           <caret line="15" column="60" lean-forward="false" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-            <marker date="1501428537073" expanded="false" signature="3659:3673" ph="..." />
-            <marker date="1501428537073" expanded="false" signature="3834:3847" ph="..." />
+            <element signature="n#style#0;n#div#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#ion-content#0;n#ion-view#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/templates/service-provider.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="42" column="15" lean-forward="false" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
+          <folding>
+            <element signature="n#style#0;n#h4#0;n#div#1;n#div#0;n#ion-header-bar#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#i#0;n#span#0;n#div#0;n#div#1;n#div#0;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#ion-slide#0;n#ion-slide-box#0;n#tab-slide-box#0;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#ion-slide#0;n#ion-slide-box#0;n#tab-slide-box#0;n#ion-content#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/modules/shop/styles/shop-styles-new.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="99" column="44" lean-forward="false" selection-start-line="99" selection-start-column="14" selection-end-line="99" selection-end-column="44" />
+        <state relative-caret-position="306">
+          <caret line="176" column="20" lean-forward="false" selection-start-line="176" selection-start-column="20" selection-end-line="176" selection-end-column="20" />
+          <folding>
+            <marker date="1502522901004" expanded="true" signature="1784:1816" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/templates/service-provider.html">
+    <entry file="file://$PROJECT_DIR$/www/app/common/lang/en.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="86" lean-forward="false" selection-start-line="21" selection-start-column="86" selection-end-line="21" selection-end-column="86" />
-          <folding>
-            <element signature="n#style#0;n#h4#0;n#div#1;n#div#0;n#ion-header-bar#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-            <marker date="1501429317239" expanded="false" signature="523:535" ph="..." />
-            <marker date="1501429317239" expanded="false" signature="2309:2326" ph="..." />
-          </folding>
+        <state relative-caret-position="391">
+          <caret line="50" column="16" lean-forward="false" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/modules/auth/styles/auth-styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="15" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/auth-home.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/gradient.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/img/wedding_fair/WFLogo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/img/wedding_fair/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/img/wedding_fair/side-nav-image.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/img/wedding_fair/photography/gradient.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/new/home-background.JPG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/shop.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/lib/angular-aria.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/angular-material.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/modules/auth/controllers/AuthSignInCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/modules/auth/auth.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/modules/auth/templates/auth-sign-up-step-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="70" column="41" lean-forward="false" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/modules/auth/controllers/AuthSignUpCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/modules/auth/controllers/AuthSignUpStep2Ctrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/modules/auth/templates/auth-sign-up.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="54" column="23" lean-forward="true" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
