@@ -62,6 +62,15 @@ angular.module('lang_en',['pascalprecht.translate','ngSanitize'])
       ABOUT_US:"About Us",
       RATE_US:"Rate Us",
 
+      // new
+      BUSINESS_REG_NUMBER:"Business Reg Number",
+      CONTACT:"Contact",
+      CATEGORY:"Category",
+      WEBSITE:"Website",
+      FACEBOOK:"Facebook",
+      STEP_1:"Step 1",
+      STEP_2:"Step 2",
+
     });
     $translateProvider.useSanitizeValueStrategy('escapeParameters');
   }]);

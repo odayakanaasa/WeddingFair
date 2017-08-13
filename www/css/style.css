@@ -125,6 +125,7 @@ ion-content{
 }
 .left-title{
   margin-left: 60px;
+  margin-top: 15px;
 }
 .bar-subheader{
   /*background-color:#fc8d33;*/
@@ -142,4 +143,11 @@ ion-content{
 /*opacity*/
 .half-opacity{
   opacity:0.5 !important;
+}
+
+.md-custom-select{
+  background: white;
+  margin: 2px 0;
+  height: 55px;
+  padding: 10px;
 }

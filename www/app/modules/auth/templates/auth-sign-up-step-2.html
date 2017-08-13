@@ -8,31 +8,33 @@
             <i class="ion-close-round font-M white"></i>
           </a>
         </div>
-        <h4 class="white left-title">{{'SIGN_UP' | translate}}</h4>
+        <h4 class="white left-title">{{'SIGN_UP' | translate}} - {{'STEP_2' | translate}}</h4>
       </div>
     </ion-header-bar>
     <div class="contents padding has-header-md">
       <div class="list list-inset sign-up-fields">
+
         <label class="item item-input text-xmd">
-          <i class="icon ion-android-person placeholder-icon"></i>
-          <input type="text" placeholder="{{'OWNER_NAME' | translate}}" ng-model="user.email">
+          <i class="icon ion-ios-albums placeholder-icon"></i>
+          <input type="text" placeholder="{{'CATEGORY' | translate}}" ng-model="user.email">
         </label>
         <label class="item item-input text-xmd">
-          <i class="icon ion-ios-home placeholder-icon"></i>
-          <input type="text" placeholder="{{'COMPANY_NAME' | translate}}" ng-model="user.email">
+          <i class="icon ion-document-text placeholder-icon"></i>
+          <input type="text" placeholder="{{'DESCRIPTION' | translate}}" ng-model="user.email">
+        </label>
+
+        <label class="item item-input text-xmd">
+          <i class="icon ion-earth placeholder-icon"></i>
+          <input type="text" placeholder="{{'WEBSITE' | translate}}" ng-model="user.email">
         </label>
         <label class="item item-input text-xmd">
-          <i class="icon ion-ios-location placeholder-icon"></i>
-          <input type="text" placeholder="{{'ADDRESS_LINE_1' | translate}}" ng-model="user.email">
+          <i class="icon ion-social-facebook placeholder-icon"></i>
+          <input type="email" placeholder="{{'FACEBOOK' | translate}}" ng-model="user.email">
         </label>
-        <label class="item item-input text-xmd">
-          <i class="icon ion-ios-location placeholder-icon"></i>
-          <input type="text" placeholder="{{'ADDRESS_LINE_2' | translate}}" ng-model="user.email">
-        </label>
-        <label class="item item-input text-xmd">
-          <i class="icon ion-ios-navigate placeholder-icon"></i>
-          <input type="text" placeholder="{{'CITY' | translate}}" ng-model="user.email">
-        </label>
+        <!--<label class="item item-input text-xmd">-->
+          <!--<i class="icon ion-android-lock placeholder-icon"></i>-->
+          <!--<input type="password" placeholder="{{'PASSWORD' | translate}}" ng-model="user.email">-->
+        <!--</label>-->
         <label class="item item-input text-xmd">
           <i class="icon ion-ios-email placeholder-icon"></i>
           <input type="email" placeholder="{{'EMAIL' | translate}}" ng-model="user.email">
@@ -44,7 +46,7 @@
       </div>
       <div>
         <button class="button custom-height-button button-sm square button-block button-orange capital" ng-click="signIn()">
-          {{"NEXT" | translate}}
+          {{"REGISTER" | translate}}
         </button>
       </div>
       <!--<div class="" style="bottom: 40px;">-->
