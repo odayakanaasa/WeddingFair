@@ -6,9 +6,10 @@ ServiceProviderCtrl.$inject = ['$scope','$state','$rootScope','$ionicModal'];
 
 function ServiceProviderCtrl($scope,$state,$rootScope,$ionicModal) {
     $scope.tabs = [
-      {"text" : "Photography"},
-      {"text" : "Videography"},
-      {"text" : "Preshoot"}
+      {"text" : "Gallery"},
+      {"text" : "Video"},
+      {"text" : "Location"},
+      {"text" : "Info"}
     ];
 
    $scope.gallery = [

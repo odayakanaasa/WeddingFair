@@ -9,7 +9,7 @@
   display:none;
 }
 .tabbed-slidebox .slider {
-  height: auto;
+  /*height: auto;*/
   min-height: 100%;
 }
 .tabbed-slidebox.btm .slider {
@@ -19,6 +19,7 @@
   width: 100%;
 }
 .tabbed-slidebox .slider-slide {
+  overflow-y: scroll !important;
   padding-top: 0px;
   color: #000;
   background-color: #e8e8e8;
