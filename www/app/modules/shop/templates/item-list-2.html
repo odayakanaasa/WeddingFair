@@ -1,5 +1,5 @@
-<ion-header-bar class="bar bar-header header-md ">
-  <div style="width: 100%; display: inherit; margin-top: 5px !important;" >
+<ion-header-bar class="bar bar-header header-md " style="padding:0;">
+  <div style="width: 100%; display: inherit; margin-top: 5px !important;" ng-hide="isSearchEnabled">
     <div class="absolute back-icon-wrapper">
       <a class="button button-icon row" ng-href="#/home">
         <i class="ion-android-arrow-back font-L black"></i>
@@ -7,58 +7,78 @@
     </div>
     <h4 class="black left-title">Photography</h4>
     <div class="absolute cart-icon-wrapper">
-      <a class="button button-icon row" ng-href="#/cart">
+      <a class="button button-icon row" ng-click="isSearchEnabled = true;">
         <i class="ion-search font-L black"></i>
       </a>
     </div>
   </div>
+  <div class="bar item-input-inset" ng-show="isSearchEnabled">
+    <label class="item-input-wrapper">
+      <i class="icon ion-ios-search placeholder-icon "></i>
+      <input type="search" placeholder="Search" ng-change="srchchange() "ng-model="adn.item">
+    </label>
+    <button class="button button-clear " ng-click="ressetserach()"><i class="ion-android-cancel assertive"></i></button>
+  </div>
+
+
 </ion-header-bar>
-<div class="bar bar-subheader">
-  <h2 class="title">Sub Header</h2>
+<div class="bar bar-subheader   item-input-inset" style="top: 43px;">
+    <!--<label class="item-input-wrapper">-->
+      <!--<i class="icon ion-ios-search placeholder-icon "></i>-->
+      <!--<input type="search" placeholder="Search" ng-change="srchchange() "ng-model="adn.item">-->
+    <!--</label>-->
+    <!--<button class="button button-clear " ng-click="ressetserach()"><i class="ion-android-cancel assertive"></i></button>-->
+  <md-autocomplete
+    ng-disabled="isDisabled"
+    md-no-cache="noCache"
+    md-selected-item="selectedItem"
+    md-search-text-change="searchTextChange(searchText)"
+    md-search-text="searchText"
+    md-selected-item-change="selectedItemChange(item)"
+    md-items="item in querySearch(searchText)"
+    md-item-text="item.display"
+    md-min-length="0"
+    placeholder="City">
+    <md-item-template>
+      <span md-highlight-text="searchText" md-highlight-flags="^i">{{item.display}}</span>
+    </md-item-template>
+    <md-not-found>
+      No cities matching "{{searchText}}" were found.
+      <a ng-click="newState(searchText)">Create a new one!</a>
+    </md-not-found>
+  </md-autocomplete>
+  <div style="padding: 0 25px;">
+    <i  style="color: #e33030;font-size: 30px;" ng-class="bookMarked ? 'ion-ios-heart' : 'ion-ios-heart-outline'" ng-click="bookMarked = !bookMarked"></i>
+  </div>
+
 </div>
 <ion-view  cache-view="false" class="non-scrolling-gradient-background">
   <ion-content class="has-header-lg" overflow-scroll="true">
-    <!--<div class="row">-->
-      <!--<div class="col " style="padding: 10px !important;">-->
-        <!--<div class="list card wish-list-card" ng-click="openServiceProvider()">-->
-          <!--<div class="item item-image" >-->
-            <!--<img src="img/wedding_fair/studios/1.jpg" class="full-width full-height">-->
-            <!--<div class="text-on-image card-title-shadow" >-->
-              <!--<h2 class="align-right">PHOTOGRAPHY</h2>-->
-            <!--</div>-->
-          <!--</div>-->
-          <!--<div class="item tabs-secondary tabs-icon-left white-tabs" style="padding: 10px;">-->
-            <!--<h2 class="align-center service-provider-name">JohnDoe Studio</h2>-->
-            <!--<span><i class="ion-ios-heart-outline bookmarked"></i></span>-->
-          <!--</div>-->
-        <!--</div>-->
+
+
+    <!--<ion-list>-->
+      <!--<div   ng-repeat="x in names"  data="{{names}}" ng-click="getDatapointId(names)" >-->
+        <!--<ion-item>-->
+
+          <!--{{x.DPNAME}}-->
+        <!--</ion-item>-->
+
       <!--</div>-->
-    <!--</div>-->
-    <!--<div class="row">-->
-      <!--<div class="col ">-->
-        <!--<div class="list card wish-list-card" ng-click="openServiceProvider()">-->
-          <!--<div class="item item-image" >-->
-            <!--<img src="img/wedding_fair/studios/3.png" class="full-width full-height">-->
-          <!--</div>-->
-          <!--<div class="item tabs-secondary tabs-icon-left white-tabs" style="padding: 10px;">-->
-            <!--<h2 class="align-center service-provider-name">Rose Studio</h2>-->
-          <!--</div>-->
-        <!--</div>-->
+      <!--<div ng-if="names !== undefined && !names.length" class="no-results">-->
+        <!--<ion-item >No Results Found..</ion-item >-->
       <!--</div>-->
-    <!--</div>-->
+    <!--</ion-list>-->
 
-
-
-    <div class="row card zero-margin" style="padding-right:0; background : rgba(196, 178, 166, 0.30);) no-repeat center center fixed;" ng-click="openServiceProvider()" ng-repeat="i in [0,1,2,3,4,5,6,7,8]">
-      <div class="col zero-padding" style="max-width: 100px;">
+    <div class="row card zero-margin" style="padding-right:0; background : rgba(196, 178, 166, 0.30);) no-repeat center center fixed;"  ng-repeat="i in [0,1,2,3,4,5,6,7,8]">
+      <div class="col zero-padding" style="max-width: 100px;" ng-click="openServiceProvider()">
         <div class="row">
           <div class="col" style="padding: 2px; height:94px; max-width:94px; max-height:94px; vertical-align: middle; overflow: hidden;">
             <img ng-src="img/wedding_fair/studios/3.png" onerror="this.src='img/noimage.jpg'" style="height:90px;width:90px;">
           </div>
         </div>
       </div>
-      <div class="col " style="padding: 10px 0 0 0;" ng-click="viewOrder(order)">
-        <div class="row zero-padding">
+      <div class="col " style="padding: 10px 0 0 0;">
+        <div class="row zero-padding"  ng-click="openServiceProvider()">
             <span class="">
               <span class="white" style="font-size: 20px;"> Studio 3000 </span> <span style="position: absolute;right: 10px;"> {{authResponse.shopCurrency}} {{order.finalValue | number}} </span><br>
               <h5 class="white" style="margin-bottom:0">Galle </h5><br>
@@ -73,7 +93,7 @@
           </div>
           <div class="bookmark-btn">
             <!--<i class="ion-ios-heart-outline"></i>-->
-            <i class="ion-ios-heart"></i>
+            <i  style="color: #fff;" ng-class="bookMarked ? 'ion-ios-heart' : 'ion-ios-heart-outline'" ng-click="bookMarked = !bookMarked"></i>
           </div>
         </div>
       </div>

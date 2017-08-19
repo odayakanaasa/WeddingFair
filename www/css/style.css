@@ -151,3 +151,10 @@ ion-content{
   height: 55px;
   padding: 10px;
 }
+
+md-autocomplete-wrap {
+  height: 35px !important;
+}
+md-autocomplete-wrap > input {
+  height: 35px !important;
+}

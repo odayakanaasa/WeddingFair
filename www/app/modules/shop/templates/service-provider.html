@@ -61,12 +61,12 @@
           <div class="row zero-padding">
             <div class="col" style="padding-right:2px;">
               <div ng-repeat="image in processedGallery.col_1 track by $index">
-                <img ng-src="app/modules/shop/img/gallery/{{image.imageUrl}}" class="full-width">
+                <img ng-src="app/modules/shop/img/gallery/{{image.imageUrl}}" class="full-width" ng-click="showImages(image.index)">
               </div>
             </div>
             <div class="col" style="padding-left:2px;">
               <div ng-repeat="image in processedGallery.col_2 track by $index">
-                <img ng-src="app/modules/shop/img/gallery/{{image.imageUrl}}" class="full-width">
+                <img ng-src="app/modules/shop/img/gallery/{{image.imageUrl}}" class="full-width" ng-click="showImages(image.index)">
               </div>
             </div>
           </div>
