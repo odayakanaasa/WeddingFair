@@ -47,7 +47,7 @@ ion-content{
 }
 .button-sm{
   height: 50px;
-  line-height: 25px;
+  line-height: 50px;
 }
 .button-md{
   height: 55px;
@@ -154,7 +154,17 @@ ion-content{
 
 md-autocomplete-wrap {
   height: 35px !important;
+  border-radius: 5px;
+  background: rgb(238, 238, 238);
 }
 md-autocomplete-wrap > input {
   height: 35px !important;
+}
+.sign-up-city > md-autocomplete-wrap {
+  height: 50px !important;
+  border-radius: 0 !important;
+  background: #fff !important;
+}
+.sign-up-city > md-autocomplete-wrap > input {
+  height: 50px !important;
 }

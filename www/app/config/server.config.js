@@ -6,9 +6,9 @@
 
       clientAPI: {
         serviceName: 'Client API Services',
-        serviceUrl: 'http://payleq8.com',
-        port:'8080',
-        base_url: '/Paylegateway/rest'
+        serviceUrl: 'http://localhost',
+        port:'8040',
+        base_url: '/wedding_rings'
       }
 
     });

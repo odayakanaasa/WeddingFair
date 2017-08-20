@@ -71,6 +71,9 @@ angular.module('lang_en',['pascalprecht.translate','ngSanitize'])
       STEP_1:"Step 1",
       STEP_2:"Step 2",
 
+      LAND_PHONE : "Fixed Line",
+      MOBILE : "Mobile",
+
     });
     $translateProvider.useSanitizeValueStrategy('escapeParameters');
   }]);

@@ -15,44 +15,72 @@
       <div class="list list-inset sign-up-fields">
         <label class="item item-input text-xmd">
           <i class="icon ion-android-person placeholder-icon"></i>
-          <input type="text" placeholder="{{'OWNER_NAME' | translate}}" ng-model="user.email">
+          <input type="text" placeholder="{{'OWNER_NAME' | translate}}" ng-model="serviceProvider.name">
         </label>
         <label class="item item-input text-xmd">
           <i class="icon ion-ios-home placeholder-icon"></i>
-          <input type="text" placeholder="{{'COMPANY_NAME' | translate}}" ng-model="user.email">
+          <input type="text" placeholder="{{'COMPANY_NAME' | translate}}" ng-model="serviceProvider.companyName">
         </label>
         <label class="item item-input text-xmd">
           <i class="icon ion-pound placeholder-icon"></i>
-          <input type="text" placeholder="{{'BUSINESS_REG_NUMBER' | translate}}" ng-model="user.email">
+          <input type="text" placeholder="{{'BUSINESS_REG_NUMBER' | translate}}" ng-model="serviceProvider.reqNumber">
         </label>
         <label class="item item-input text-xmd">
           <i class="icon ion-android-call placeholder-icon"></i>
-          <input type="text" placeholder="{{'CONTACT' | translate}}" ng-model="user.email">
+          <input type="text" placeholder="{{'LAND_PHONE' | translate}}" ng-model="serviceProvider.fixedLine">
+        </label>
+        <label class="item item-input text-xmd">
+          <i class="icon ion-android-call placeholder-icon"></i>
+          <input type="text" placeholder="{{'MOBILE' | translate}}" ng-model="serviceProvider.contact">
         </label>
         <label class="item item-input text-xmd">
           <i class="icon ion-ios-location placeholder-icon"></i>
-          <input type="text" placeholder="{{'ADDRESS_LINE_1' | translate}}" ng-model="user.email">
+          <input type="text" placeholder="{{'ADDRESS_LINE_1' | translate}}" ng-model="serviceProvider.addressLine1">
         </label>
         <label class="item item-input text-xmd">
           <i class="icon ion-ios-location placeholder-icon"></i>
-          <input type="text" placeholder="{{'ADDRESS_LINE_2' | translate}}" ng-model="user.email">
+          <input type="text" placeholder="{{'ADDRESS_LINE_2' | translate}}" ng-model="serviceProvider.addressLine2">
         </label>
-        <label class="item item-input text-xmd">
-          <i class="icon ion-ios-navigate placeholder-icon"></i>
-          <input type="text" placeholder="{{'CITY' | translate}}" ng-model="user.email">
-        </label>
-        <md-select ng-model="weapon" placeholder="Weapon" class="md-no-underline md-custom-select">
-          <md-option value="axe">Axe</md-option>
-          <md-option value="sword">Sword</md-option>
-          <md-option value="wand">Wand</md-option>
-          <md-option value="pen">Pen?</md-option>
-        </md-select>
+        <!--<label class="item item-input text-xmd">-->
+          <!--<i class="icon ion-ios-navigate placeholder-icon"></i>-->
+          <!--<input type="text" placeholder="{{'CITY' | translate}}" ng-model="serviceProvider.city">-->
+        <!--</label>-->
+
+        <md-autocomplete
+          ng-disabled="isDisabled"
+          md-no-cache="noCache"
+          md-selected-item="selectedItem"
+          md-search-text-change="searchTextChange(searchText)"
+          md-search-text="searchText"
+          md-selected-item-change="selectedItemChange(item)"
+          md-items="item in querySearch(searchText)"
+          md-item-text="item.display"
+          md-min-length="0"
+          placeholder="City"
+          ng-model="serviceProvider.district"
+          class="sign-up-city"
+          style="height:50px;">
+          <md-item-template>
+            <span md-highlight-text="searchText" md-highlight-flags="^i">{{item.display}}</span>
+          </md-item-template>
+          <md-not-found>
+            No cities matching "{{searchText}}" were found.
+            <a ng-click="newState(searchText)">Create a new one!</a>
+          </md-not-found>
+        </md-autocomplete>
+
+        <!--<md-select ng-model="weapon" placeholder="Weapon" class="md-no-underline md-custom-select">-->
+          <!--<md-option value="axe">Axe</md-option>-->
+          <!--<md-option value="sword">Sword</md-option>-->
+          <!--<md-option value="wand">Wand</md-option>-->
+          <!--<md-option value="pen">Pen?</md-option>-->
+        <!--</md-select>-->
 
       </div>
       <div>
-        <button class="button custom-height-button button-sm square button-block button-orange capital" ng-click="goToStep2()">
+        <a class="button custom-height-button button-sm square button-block button-orange capital" ng-click="goToStep2()">
           {{"NEXT" | translate}}
-        </button>
+        </a>
       </div>
       <!--<div class="" style="bottom: 40px;">-->
         <!--<p class="align-center light">{{"SIGN_UP_WITH" | translate}}</p>-->

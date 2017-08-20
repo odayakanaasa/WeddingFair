@@ -2,9 +2,17 @@
 
 angular.module('shop.module').controller('ItemListCtrl',ItemListCtrl );
 
-ItemListCtrl.$inject = ['$scope','$state','$rootScope','$filter','$mdSidenav','$log'];
+ItemListCtrl.$inject = ['$scope','$state','$rootScope','$stateParams','$filter','$mdSidenav','$log'];
 
-function ItemListCtrl($scope,$state,$rootScope,$filter,$mdSidenav,$log) {
+function ItemListCtrl($scope,$state,$rootScope,$stateParams,$filter,$mdSidenav,$log) {
+
+  console.log($stateParams.category);
+
+  if($stateParams.category){
+    $scope.category = $stateParams.category;
+  }else{
+    $state.go('home');
+  }
 
   $scope.isSearchEnabled = false;
   $scope.bookMarked = false;

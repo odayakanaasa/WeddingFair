@@ -2,47 +2,33 @@
 
 angular.module('shop.module').controller('HomeCtrl',HomeCtrl );
 
-HomeCtrl.$inject = ['$scope','$state','$filter','$rootScope','$timeout','$mdSidenav','$log','$mdBottomSheet', '$mdToast','UserService','$ionicActionSheet','$ionicLoading'];
+HomeCtrl.$inject = ['$scope','$state','$filter','$rootScope','serverConfig','httpService','$timeout','$mdSidenav','$log','$mdBottomSheet', '$mdToast','UserService','$ionicActionSheet','$ionicLoading'];
 
-function HomeCtrl($scope,$state,$filter,$rootScope,$timeout,$mdSidenav,$log,$mdBottomSheet, $mdToast,UserService,$ionicActionSheet,$ionicLoading) {
+function HomeCtrl($scope,$state,$filter,$rootScope,serverConfig,httpService,$timeout,$mdSidenav,$log,$mdBottomSheet, $mdToast,UserService,$ionicActionSheet,$ionicLoading) {
 
-  $scope.categories = [
-    {
-      "name":'studio',
-      "providerCount":100,
-      "bookmarkedCount":10,
-    },{
-      "name":'salon',
-      "providerCount":100,
-      "bookmarkedCount":10,
-    },{
-      "name":'fashion & design',
-      "providerCount":100,
-      "bookmarkedCount":10,
-    },{
-      "name":'decoration',
-      "providerCount":100,
-      "bookmarkedCount":10,
-    },{
-      "name":'jewellery',
-      "providerCount":100,
-      "bookmarkedCount":10,
-    },{
-      "name":'entertainment',
-      "providerCount":100,
-      "bookmarkedCount":10,
-    },
-  ];
+  $scope.categories = [];
+
+  var extended_url = '/service_category_service/getServiceCategories';
+  httpService.getRequest(serverConfig.clientAPI,extended_url,{}).then(function(response){
+    if(response.status === 200){
+      for(var i in response.data){
+        $scope.categories.push({
+          "categoryName":response.data[i].categoryName,
+          "providerCount":100,
+          "bookmarkedCount":10,
+        });
+      }
+    }
+  });
 
   $scope.searchEnabled = false;
 
   $scope.toggleSearch = function() {
-    console.log('asds');
     $scope.searchEnabled = !$scope.searchEnabled;
   };
 
-  $scope.goServiceProvidersList = function () {
-    $state.go('item-list');
+  $scope.goServiceProvidersList = function (category) {
+    $state.go('item-list',{"category":category});
   };
 
   $scope.openCategories = function (){

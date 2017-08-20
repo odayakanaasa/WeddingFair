@@ -82,7 +82,7 @@
 
 }
 .info-row > i {
-  padding : 0 15px;
+  padding : 0 10px;
 }
 .home-background {
   background-image: url('../img/new/home-background.jpg');
@@ -130,7 +130,7 @@
 }
 .gallery-text h3{
   color: white;
-  font-size: 30px;
+  font-size: 20px !important;
   display: inline-table;
   vertical-align:middle;
   line-height:100%;
@@ -209,35 +209,7 @@ input[name="search"]:focus {
   width: 100%;
 }
 /*gallery*/
-Styling for our viewsCSS
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
+
 .image-list-thumb {
   padding: 2px 2px 2px 2px;
   height: 150px;
