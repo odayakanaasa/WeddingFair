@@ -19,14 +19,10 @@ function AuthSignUpCtrl($scope,$rootScope,$state,$stateParams,appConfig,$log) {
   $scope.goToStep2 = function () {
     console.log($scope.selectedItem);
     console.log($scope.serviceProvider);
-    // $state.go('authSignUpStep2');
+    $state.go('authSignUpStep2',{"initialData" : $scope.serviceProvider });
   };
 
   //auto complete
-
-  //auto complete
-
-  // var self = this;
 
   $scope.simulateQuery = false;
   $scope.isDisabled    = false;
@@ -94,7 +90,6 @@ function AuthSignUpCtrl($scope,$rootScope,$state,$stateParams,appConfig,$log) {
     return function filterFn(state) {
       return (state.value.indexOf(lowercaseQuery) === 0);
     };
-
   }
 
 }

@@ -10,6 +10,6 @@ function AuthSignInCtrl($scope,$state,$rootScope) {
     $state.go('authSignUp');
   };
   $scope.goHome = function () {
-    $state.go('home');
+    $state.go('serviceProviderHome');
   };
 }

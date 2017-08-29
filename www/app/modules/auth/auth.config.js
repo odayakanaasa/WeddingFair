@@ -17,7 +17,8 @@ authModule.config(function config($stateProvider,$urlRouterProvider) {
     .state('authSignUpStep2', {
       url: '/authSignUpStep2',
       templateUrl: 'app/modules/auth/templates/auth-sign-up-step-2.html',
-      controller: 'AuthSignUpStep2Ctrl'
+      controller: 'AuthSignUpStep2Ctrl',
+      params : {"initialData" : null}
     });
     $urlRouterProvider.otherwise('/home');
 });
