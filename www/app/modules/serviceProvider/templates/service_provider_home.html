@@ -1,9 +1,11 @@
 <ion-view>
   <ion-content class="">
-      <button class="button button-full button-positive" ng-click="getImage()">
+      <a class="button button-full button-positive" ng-click="getImage()">
         Get Image and Save a Contact with It
-      </button>
-      <img ng-src="{{collection.selectedImage}}" style="width:100%; height: auto;"/>
+      </a>
+
+      <a ng-href="#/serviceProviderLocation"  class="button button-full button-positive">Set Location</a>
+      <img ng-repeat="image in galleryImages" ng-src="{{image}}" style="width:100%; height: auto;"/>
   </ion-content>
 </ion-view>
 

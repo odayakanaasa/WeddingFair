@@ -9,5 +9,10 @@ serviceProviderModule.config(function config($stateProvider,$urlRouterProvider) 
       templateUrl: 'app/modules/serviceProvider/templates/service_provider_home.html',
       controller: 'ServiceProviderHomeCtrl'
     })
+    .state('serviceProviderLocation', {
+      url: '/serviceProviderLocation',
+      templateUrl: 'app/modules/serviceProvider/templates/service_provider_location.html',
+      controller: 'ServiceProviderLocationCtrl'
+    })
 });
 
