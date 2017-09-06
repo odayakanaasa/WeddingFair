@@ -14,5 +14,10 @@ serviceProviderModule.config(function config($stateProvider,$urlRouterProvider) 
       templateUrl: 'app/modules/serviceProvider/templates/service_provider_location.html',
       controller: 'ServiceProviderLocationCtrl'
     })
+    .state('serviceProviderVideo', {
+      url: '/serviceProviderVideo',
+      templateUrl: 'app/modules/serviceProvider/templates/service_provider_video.html',
+      controller: 'ServiceProviderVideoCtrl'
+    })
 });
 

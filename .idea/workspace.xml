@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbb388f8-2805-43d8-bc5c-d638efde05db" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/app/modules/serviceProvider/controllers/ServiceProviderLocationCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/app/modules/serviceProvider/templates/service_provider_location.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/app/modules/serviceProvider/controllers/ServiceProviderVideoCtrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/app/modules/serviceProvider/templates/service_provider_video.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/modules/serviceProvider/controllers/ServiceProviderCtrl.js" afterPath="$PROJECT_DIR$/www/app/modules/serviceProvider/controllers/ServiceProviderCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/modules/serviceProvider/serviceProvider.config.js" afterPath="$PROJECT_DIR$/www/app/modules/serviceProvider/serviceProvider.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/modules/serviceProvider/styles/service-provider-styles.css" afterPath="$PROJECT_DIR$/www/app/modules/serviceProvider/styles/service-provider-styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/modules/serviceProvider/templates/service_provider_home.html" afterPath="$PROJECT_DIR$/www/app/modules/serviceProvider/templates/service_provider_home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -28,8 +23,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="91" column="95" lean-forward="false" selection-start-line="91" selection-start-column="95" selection-end-line="91" selection-end-column="95" />
+            <state relative-caret-position="149">
+              <caret line="78" column="81" lean-forward="true" selection-start-line="78" selection-start-column="81" selection-end-line="78" selection-end-column="81" />
               <folding />
             </state>
           </provider>
@@ -38,7 +33,7 @@
       <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
+            <state relative-caret-position="381">
               <caret line="93" column="13" lean-forward="true" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
               <folding />
             </state>
@@ -48,8 +43,8 @@
       <file leaf-file-name="ServiceProviderCtrl.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/app/modules/serviceProvider/controllers/ServiceProviderCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="425">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -58,8 +53,28 @@
       <file leaf-file-name="serviceProvider.config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/app/modules/serviceProvider/serviceProvider.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            <state relative-caret-position="323">
+              <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/app/modules/shop/templates/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="17" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home_2.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/app/modules/shop/templates/home_2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="46" column="61" lean-forward="false" selection-start-line="46" selection-start-column="61" selection-end-line="46" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -75,29 +90,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/app/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-34">
-              <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="service_provider_home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/app/modules/serviceProvider/templates/service_provider_home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="service_provider_location.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="service_provider_location.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/app/modules/serviceProvider/templates/service_provider_location.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
@@ -107,21 +100,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="auth-sign-in.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/app/modules/auth/templates/auth-sign-in.html">
+      <file leaf-file-name="service_provider_video.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/app/modules/serviceProvider/templates/service_provider_video.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="120" lean-forward="false" selection-start-line="28" selection-start-column="120" selection-end-line="28" selection-end-column="120" />
+            <state relative-caret-position="340">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="service-provider-styles.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/app/modules/serviceProvider/styles/service-provider-styles.css">
+      <file leaf-file-name="ServiceProviderVideoCtrl.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/app/modules/serviceProvider/controllers/ServiceProviderVideoCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            <state relative-caret-position="119">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -185,15 +178,17 @@
         <option value="$PROJECT_DIR$/www/app/modules/modules.js" />
         <option value="$PROJECT_DIR$/www/app/modules/auth/controllers/AuthSignInCtrl.js" />
         <option value="$PROJECT_DIR$/www/app/modules/auth/templates/auth-sign-in.html" />
-        <option value="$PROJECT_DIR$/www/app/modules/serviceProvider/serviceProvider.config.js" />
         <option value="$PROJECT_DIR$/www/app/modules/serviceProvider/controllers/ServiceProviderLocation.js" />
-        <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/www/app/modules/serviceProvider/controllers/ServiceProviderCtrl.js" />
         <option value="$PROJECT_DIR$/www/app/modules/serviceProvider/templates/service_provider_home.html" />
         <option value="$PROJECT_DIR$/config.xml" />
         <option value="$PROJECT_DIR$/www/app/modules/serviceProvider/styles/service-provider-styles.css" />
         <option value="$PROJECT_DIR$/www/app/modules/serviceProvider/controllers/ServiceProviderLocationCtrl.js" />
         <option value="$PROJECT_DIR$/www/app/modules/serviceProvider/templates/service_provider_location.html" />
+        <option value="$PROJECT_DIR$/www/app/modules/serviceProvider/controllers/ServiceProviderVideoCtrl.js" />
+        <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/www/app/modules/serviceProvider/serviceProvider.config.js" />
+        <option value="$PROJECT_DIR$/www/app/modules/serviceProvider/templates/service_provider_video.html" />
       </list>
     </option>
   </component>
@@ -327,6 +322,23 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
               <item name="serviceProvider" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WeddingFair" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WeddingFair" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WeddingFair" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WeddingFair" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -491,7 +503,7 @@
       <workItem from="1500778406167" duration="1723000" />
       <workItem from="1501404135172" duration="17704000" />
       <workItem from="1504108849175" duration="3411000" />
-      <workItem from="1504713455832" duration="4832000" />
+      <workItem from="1504713455832" duration="6211000" />
     </task>
     <task id="LOCAL-00001" summary="service provider's page">
       <created>1501391302829</created>
@@ -528,11 +540,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504031531065</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="image picker and current location">
+      <created>1504718317666</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1504718317666</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60130000" />
+    <option name="totallyTimeSpent" value="61509000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
@@ -541,8 +560,8 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24174175" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54111844" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15460527" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19572368" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15460527" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33223686" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -589,16 +608,14 @@
     <MESSAGE value="service provider's page" />
     <MESSAGE value="new UI with gradients" />
     <MESSAGE value="service provider module" />
-    <option name="LAST_COMMIT_MESSAGE" value="service provider module" />
+    <MESSAGE value="image picker and current location" />
+    <option name="LAST_COMMIT_MESSAGE" value="image picker and current location" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/item-slide-pink-3.jpg" />
-    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/slide-show-1.jpg" />
-    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/slide-show-2.jpg" />
     <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/slide-show-3.jpg" />
     <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/wish-1.jpg" />
     <entry file="file://$PROJECT_DIR$/www/app/modules/shop/img/wish-2.jpg" />
@@ -610,13 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3145">
           <caret line="185" column="0" lean-forward="false" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/templates/home_2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="61" lean-forward="false" selection-start-line="46" selection-start-column="61" selection-end-line="46" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -822,42 +832,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="91" column="95" lean-forward="false" selection-start-line="91" selection-start-column="95" selection-end-line="91" selection-end-column="95" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/modules/serviceProvider/controllers/ServiceProviderCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/modules/serviceProvider/serviceProvider.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/app/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-34">
           <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="93" column="13" lean-forward="true" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -880,10 +858,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/modules/serviceProvider/controllers/ServiceProviderLocationCtrl.js">
+    <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="27" />
+        <state relative-caret-position="381">
+          <caret line="93" column="13" lean-forward="true" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -892,6 +870,70 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/modules/serviceProvider/controllers/ServiceProviderCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/modules/serviceProvider/controllers/ServiceProviderLocationCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/modules/serviceProvider/controllers/ServiceProviderVideoCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="78" column="81" lean-forward="true" selection-start-line="78" selection-start-column="81" selection-end-line="78" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/modules/serviceProvider/serviceProvider.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/modules/serviceProvider/templates/service_provider_video.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/modules/shop/templates/home_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="61" lean-forward="false" selection-start-line="46" selection-start-column="61" selection-end-line="46" selection-end-column="61" />
           <folding />
         </state>
       </provider>
