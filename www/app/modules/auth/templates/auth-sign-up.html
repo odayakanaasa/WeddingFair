@@ -13,10 +13,9 @@
     </ion-header-bar>
     <div class="contents padding has-header-md">
       <div class="list list-inset sign-up-fields">
-        <label class="item item-input text-xmd">
-          <i class="icon ion-android-person placeholder-icon"></i>
-          <input type="text" placeholder="{{'OWNER_NAME' | translate}}" ng-model="serviceProvider.name">
-        </label>
+        <md-select ng-model="serviceProvider.serviceProviderCategoryId"  placeholder="Service Category" class="md-no-underline category-select">
+          <md-option ng-repeat="category in categories track by $index" value="{{category.categoryId}}">{{category.categoryName}}</md-option>
+        </md-select>
         <label class="item item-input text-xmd">
           <i class="icon ion-ios-home placeholder-icon"></i>
           <input type="text" placeholder="{{'COMPANY_NAME' | translate}}" ng-model="serviceProvider.companyName">
@@ -41,11 +40,6 @@
           <i class="icon ion-ios-location placeholder-icon"></i>
           <input type="text" placeholder="{{'ADDRESS_LINE_2' | translate}}" ng-model="serviceProvider.addressLine2">
         </label>
-        <!--<label class="item item-input text-xmd">-->
-          <!--<i class="icon ion-ios-navigate placeholder-icon"></i>-->
-          <!--<input type="text" placeholder="{{'CITY' | translate}}" ng-model="serviceProvider.city">-->
-        <!--</label>-->
-
         <md-autocomplete
           ng-disabled="isDisabled"
           md-no-cache="noCache"
@@ -68,14 +62,6 @@
             <a ng-click="newState(searchText)">Create a new one!</a>
           </md-not-found>
         </md-autocomplete>
-
-        <!--<md-select ng-model="weapon" placeholder="Weapon" class="md-no-underline md-custom-select">-->
-          <!--<md-option value="axe">Axe</md-option>-->
-          <!--<md-option value="sword">Sword</md-option>-->
-          <!--<md-option value="wand">Wand</md-option>-->
-          <!--<md-option value="pen">Pen?</md-option>-->
-        <!--</md-select>-->
-
       </div>
       <div>
         <a class="button custom-height-button button-sm square button-block button-orange capital" ng-click="goToStep2()">

@@ -4,7 +4,7 @@
     <ion-header-bar class="bar bar-header header-md bar-darker half-opacity">
       <div style="width: 100%; display: inherit; margin-top: 0px !important;" >
         <div class="absolute back-icon-wrapper">
-          <a class="button button-icon row" ng-click="goBack()">
+          <a class="button button-icon row" ng-href="#/authSignUp">
             <i class="ion-close-round font-M white"></i>
           </a>
         </div>
@@ -13,56 +13,41 @@
     </ion-header-bar>
     <div class="contents padding has-header-md">
       <div class="list list-inset sign-up-fields">
-
-        <label class="item item-input text-xmd">
-          <i class="icon ion-ios-albums placeholder-icon"></i>
-          <input type="text" placeholder="{{'CATEGORY' | translate}}" ng-model="user.email">
-        </label>
         <label class="item item-input text-xmd">
           <i class="icon ion-document-text placeholder-icon"></i>
-          <input type="text" placeholder="{{'DESCRIPTION' | translate}}" ng-model="user.email">
+          <input type="text" placeholder="{{'DESCRIPTION' | translate}}" ng-model="serviceProvider.description">
         </label>
-
         <label class="item item-input text-xmd">
           <i class="icon ion-earth placeholder-icon"></i>
-          <input type="text" placeholder="{{'WEBSITE' | translate}}" ng-model="user.email">
+          <input type="text" placeholder="{{'WEBSITE' | translate}}" ng-model="serviceProvider.website">
         </label>
         <label class="item item-input text-xmd">
           <i class="icon ion-social-facebook placeholder-icon"></i>
-          <input type="email" placeholder="{{'FACEBOOK' | translate}}" ng-model="user.email">
+          <input type="text" placeholder="{{'FACEBOOK' | translate}}" ng-model="serviceProvider.facebook">
         </label>
-        <!--<label class="item item-input text-xmd">-->
-          <!--<i class="icon ion-android-lock placeholder-icon"></i>-->
-          <!--<input type="password" placeholder="{{'PASSWORD' | translate}}" ng-model="user.email">-->
-        <!--</label>-->
+        <label class="item item-input text-xmd">
+          <i class="icon ion-android-person placeholder-icon"></i>
+          <input type="text" placeholder="{{'OWNER_NAME' | translate}}" ng-model="serviceProvider.name">
+        </label>
         <label class="item item-input text-xmd">
           <i class="icon ion-ios-email placeholder-icon"></i>
-          <input type="email" placeholder="{{'EMAIL' | translate}}" ng-model="user.email">
+          <input type="email" placeholder="{{'EMAIL' | translate}}" ng-model="serviceProvider.email">
         </label>
         <label class="item item-input text-xmd">
           <i class="icon ion-android-lock placeholder-icon"></i>
-          <input type="password" placeholder="{{'PASSWORD' | translate}}" ng-model="user.email">
+          <input type="password" placeholder="{{'PASSWORD' | translate}}" ng-model="serviceProvider.password">
+        </label>
+        <label class="item item-input text-xmd">
+          <i class="icon ion-android-lock placeholder-icon"></i>
+          <input type="password" placeholder="{{'CONFIRM_PASSWORD' | translate}}" ng-model="serviceProvider.confirmPassword">
         </label>
       </div>
       <div>
-        <button class="button custom-height-button button-sm square button-block button-orange capital" ng-click="signIn()">
+        <a class="button custom-height-button button-sm square button-block button-orange capital" ng-click="createServiceProvider()">
           {{"REGISTER" | translate}}
-        </button>
+        </a>
       </div>
-      <!--<div class="" style="bottom: 40px;">-->
-      <!--<p class="align-center light">{{"SIGN_UP_WITH" | translate}}</p>-->
-      <!--<div class="row">-->
-      <!--<div class="col align-right">-->
-      <!--<a class="button custom-height-button button-md square button-block button-positive icon ion-social-facebook" style="width:55px;margin-left: auto;"></a>-->
-      <!--</div>-->
-      <!--<div class="col">-->
-      <!--<a class="button custom-height-button button-md square button-block button-assertive icon ion-social-googleplus"  style="width:55px;"></a>-->
-      <!--</div>-->
-      <!--</div>-->
-      <!--<p class="align-center light">-->
-      <!--<span>{{"ALREADY_REGISTERED" | translate}}</span> <a ng-click="openSignIn()" class="underlined">{{"SIGN_IN" | translate}}</a>-->
-      <!--</p>-->
-      <!--</div>-->
+
     </div>
   </ion-content>
 </ion-view>

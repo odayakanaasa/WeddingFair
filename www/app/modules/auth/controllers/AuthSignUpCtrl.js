@@ -2,13 +2,26 @@
 
 angular.module('auth.module').controller('AuthSignUpCtrl', AuthSignUpCtrl);
 
-AuthSignUpCtrl.$inject = ['$scope','$rootScope','$state','$stateParams','appConfig','$log'];
+AuthSignUpCtrl.$inject = ['$scope','$rootScope','$state','$stateParams','appConfig','$log','httpService','serverConfig'];
 
-function AuthSignUpCtrl($scope,$rootScope,$state,$stateParams,appConfig,$log) {
+function AuthSignUpCtrl($scope,$rootScope,$state,$stateParams,appConfig,$log,httpService,serverConfig) {
 
   $scope.appConfig = appConfig;
 
   $scope.serviceProvider = {};
+
+  init();
+
+  function init(){
+    $scope.categories = [];
+    var extended_url = '/service_category_service/getServiceCategories';
+    httpService.getRequest(serverConfig.clientAPI,extended_url,{}).then(function(response){
+      if(response.status === 200){
+        $scope.categories = response.data;
+      }
+    });
+  }
+
 
   $scope.goBack = function () {
     $state.go('authSignIn');
@@ -17,8 +30,6 @@ function AuthSignUpCtrl($scope,$rootScope,$state,$stateParams,appConfig,$log) {
     $state.go('authSignIn');
   }
   $scope.goToStep2 = function () {
-    console.log($scope.selectedItem);
-    console.log($scope.serviceProvider);
     $state.go('authSignUpStep2',{"initialData" : $scope.serviceProvider });
   };
 

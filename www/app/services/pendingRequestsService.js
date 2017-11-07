@@ -1,7 +1,7 @@
 (function (angular) {
   'use strict';
 
-    angular.module('arcMall').service('pendingRequests', pendingRequests);
+    angular.module('weddingFair').service('pendingRequests', pendingRequests);
 
     pendingRequests.$inject = [];
 

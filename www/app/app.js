@@ -3,7 +3,7 @@
 // angular.module is a global place for creating, registering and retrieving Angular modules
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
-var arcMall = angular.module('arcMall', [
+var weddingFair = angular.module('weddingFair', [
   'ionic',
   'ngCordova',
   'ngMaterial',
@@ -16,13 +16,13 @@ var arcMall = angular.module('arcMall', [
 ]);
 
 // translation config
-arcMall.config(function($translateProvider) {
+weddingFair.config(function($translateProvider) {
     $translateProvider.preferredLanguage("en");
     $translateProvider.forceAsyncReload(true);
     $translateProvider.fallbackLanguage("en");
 });
 
-arcMall.run(function($ionicPlatform) {
+weddingFair.run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
     if(window.cordova && window.cordova.plugins.Keyboard) {
       // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard

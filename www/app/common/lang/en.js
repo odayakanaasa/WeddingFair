@@ -73,7 +73,7 @@ angular.module('lang_en',['pascalprecht.translate','ngSanitize'])
 
       LAND_PHONE : "Fixed Line",
       MOBILE : "Mobile",
-
+      LOGIN_NAME : 'Login Name'
     });
     $translateProvider.useSanitizeValueStrategy('escapeParameters');
   }]);

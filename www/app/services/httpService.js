@@ -1,7 +1,7 @@
 (function (angular) {
   'use strict';
 
-    angular.module('arcMall').service('httpService', httpService);
+    angular.module('weddingFair').service('httpService', httpService);
 
     httpService.$inject = ['$http', '$q', '$ionicLoading','pendingRequests','$filter'];
     // httpService.$inject = ['$http', '$q', '$ionicLoading','pendingRequests','$cordovaToast','$filter'];

@@ -6,7 +6,7 @@
 
       clientAPI: {
         serviceName: 'Client API Services',
-        serviceUrl: 'http://localhost',
+        serviceUrl: 'http://52.66.12.242',
         port:'8040',
         base_url: '/wedding_rings'
       }

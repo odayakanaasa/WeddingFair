@@ -15,20 +15,20 @@
       <div class="list list-inset">
         <label class="item item-input text-md">
           <i class="icon ion-ios-email-outline placeholder-icon"></i>
-          <input type="email" placeholder="{{'EMAIL_ADDRESS' | translate}}" ng-model="user.email">
+          <input type="text" placeholder="{{'LOGIN_NAME' | translate}}" ng-model="user.loginName">
         </label>
         <label class="item item-input text-md">
           <i class="icon ion-ios-locked-outline placeholder-icon"></i>
-          <input type="email" placeholder="{{'PASSWORD' | translate}}" ng-model="user.email">
+          <input type="password" placeholder="{{'PASSWORD' | translate}}" ng-model="user.password">
         </label>
       </div>
       <div class="row" style="margin: 10px 0 10px 0;">
         <a ng-click="" class="underlined size-margin-auto">{{"FORGET_PASSWORD" | translate}}</a>
       </div>
       <div>
-        <button class="button custom-height-button button-sm square button-block button-orange capital" ng-click="goHome()">
+        <a class="button custom-height-button button-sm square button-block button-orange capital" ng-click="signIn()">
           {{"SIGN_IN" | translate}}
-        </button>
+        </a>
       </div>
       <div class="" style="bottom: 40px;">
         <!--<p class="align-center light">{{"SIGN_IN_WITH" | translate}}</p>-->
